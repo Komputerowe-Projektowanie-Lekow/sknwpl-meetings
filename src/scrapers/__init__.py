@@ -1,0 +1,2 @@
+# Scrapery - do przyszłego użytku
+

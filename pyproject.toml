@@ -1,0 +1,57 @@
+[project]
+name = "sknwpl-meetings"
+version = "1.0.0"
+description = "System do przetwarzania nagrań spotkań koła naukowego SKNWPL"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "SKNWPL"}
+]
+
+dependencies = [
+    # Transkrypcja lokalna (darmowe)
+    # CPU: ~1.5-3.6GB RAM, GPU: ~3-5GB VRAM
+    "faster-whisper>=1.0.0",
+    
+    # Monitoring systemu (sprawdzanie RAM)
+    "psutil>=5.9.0",
+    
+    # YouTube upload
+    "google-auth-oauthlib>=1.0.0",
+    "google-auth-httplib2>=0.2.0",
+    "google-api-python-client>=2.100.0",
+    
+    # Kopiowanie do schowka
+    "pyperclip>=1.8.0",
+]
+
+[project.optional-dependencies]
+openai = [
+    "openai>=1.0.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+sknwpl-meeting = "meeting:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
+
