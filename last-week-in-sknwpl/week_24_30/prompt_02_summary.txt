@@ -1,0 +1,4392 @@
+Jesteś asystentem do tworzenia dokumentacji spotkań koła naukowego SKNWPL.
+
+Otrzymasz transkrypt ze spotkania i opcjonalnie notatki.
+Wygeneruj pełny dokument w formacie Markdown.
+
+FORMAT WYJŚCIOWY (użyj DOKŁADNIE):
+
+# 2025-11-28 Spotkanie SKNWPL
+
+### Agenda Spotkania
+
+- [punkt 1]
+- [punkt 2]
+- [punkt 3]
+
+### Audio
+
+[Link zostanie dodany później]
+
+### Highlights
+
+- **[Tytuł 1]**: [Krótki opis - 1-2 zdania]
+- **[Tytuł 2]**: [Krótki opis]
+- **[Tytuł 3]**: [Krótki opis]
+
+### Transkrypt
+
+[Sformatowany transkrypt z timestampami w formacie [[HH:MM:SS]]]
+
+---
+NOTATKI/AGENDA:
+
+BRAK
+
+TRANSKRYPT:
+
+[[00:00:01]]
+Dobra, zacząłem nagrywanie, teraz wszystko co będzie, to będzie nagrane i będzie na sklepcie i tak samo na YouTube, żeby ludzie mogli sobie zobaczyć, o czym tutaj mówię, że oni nie mogli przejść, bo akurat wybrałem taki moment, że to był piątek o 6, więc ludzie mogły mieć plany czy po prostu nie chcieli dołączyć teraz.
+
+[[00:00:23]]
+Ja udostępnię ekran, na którym nie będzie dźwięku, ale będziecie widzieli, a nie, dźwięk też może być, w takim razie zobaczymy, jak będzie wyszło z udostępnieniem ekranu, żebyście wszystko dobrze widzieli i też żebym nie miał lagów, więc może powiecie, że wszystko widać, nie laguje, nie ma jakichś zmian jakości, ja 720p, żebyście coś tam widzieli.
+
+[[00:00:54]]
+Wszystko widać.
+
+[[00:00:56]]
+Dobra, to fajnie, w takim razie jeszcze tylko wspomnę, że zrobiłem sobie taką małą agendę na to spotkanie, która też będzie mówiona, chciałem po prostu powiedzieć, że z tą grupką na Messengerze nie wyszło, bo trzeba było wszystkich zaprosić i czekałem na zaakceptowanie zaproszenia, niektórzy pisali, że są dołączyć później i nie odpisywali mi jakieś takie dziwne rzeczy wyszły, więc wysłałem wszystkim link do Discorda.
+
+[[00:01:23]]
+Tutaj będziecie sobie mogli zobaczyć całą naszą historię, jaką tutaj mamy, bo ta sekcja nie jest jakoś długobona, jest chyba od lutego, czy marca, gdzie z dzierem spróbowałem założyć.
+
+[[00:01:39]]
+No dobrze, w takim razie zakładałem, że jesteście zainteresowani raczej AI dla biologii aniżeli czymś innym i tutaj będziemy starali się to jakoś rozwinąć.
+
+[[00:01:55]]
+Nie pamiętam dokładnie, w sensie, że ja nie chciałem pokazać, nie pamiętam dokładnie jakie inne sekcje są tutaj u nas w kole naukowym, ale uczenie maszynowo jest na pewno i to zabiera trochę takich perspektyw, że chcemy ukraść im trochę pomysłów, ale raczej zawędzić to do tej domenowej wiedzy o odnośnie odkrywaniu jakichś potencjalnych leków, badaniu białek,
+
+[[00:02:24]]
+czy w ogóle badaniu jak wygląda proces od samego znalezienia problemu do stworzenia metody, która tym problem może rozwiązać, później do stworzenia jakiegoś transportera tej metody w określone miejsce,
+
+[[00:02:36]]
+a później w badaniu jak ten związek może oddziaływać z resztą innych białek, których jest naprawdę mnóstwo i powodować naprawdę niechciane konsekwencje.
+
+[[00:02:48]]
+Ja myślę, że bądź co bądź, ja i wszędzie będzie narzędziem, więc raczej jakiegoś oskarżenia o kredyż pomysłu to bym się dobagł.
+
+[[00:03:00]]
+Tak, tak, tak, tylko że to są różne paradygmaty, że ludzie starali się robić strukturalną bioinformatykę do badania tych rzeczy.
+
+[[00:03:12]]
+Później było, że ligant, czyli próbowali projektować konkretne ligandy, chyba później było de nowo, czyli badanie tych dwóch rzeczy jednocześnie,
+
+[[00:03:24]]
+a później było, że tak full AI i te metody mogły już mieć jakieś paradygmaty i tam być badane przez tam 20, 30, 40 lat, ale to już jest coś nowego
+
+[[00:03:35]]
+i to nie chodzi o, nie wiem, jakieś klastrowanie czy jakieś inne proste modele,
+
+[[00:03:44]]
+tylko raczej już tak tworzenie czegoś bez jakichś nowszych struktury, jak nie wiem, jakiejś transformery, czy nowsze jakieś metody.
+
+[[00:03:54]]
+Dobrze, to w takim razie zacznijmy od tego, jaki był cel sekcji i od kiedy ona jest.
+
+[[00:04:07]]
+Tak jak wspominałem, ona jest do tego przez 3 miesiące chyba walczyliśmy z profesją Formanowiczem i Panem Twardową o jakiś termin,
+
+[[00:04:17]]
+żeby porozmawiać o tym, bo myślałem, że to jest bardziej strukturalne, zrobiłem jakiś tam dokument, który, jak sobie zobaczycie tutaj na maszyn diskordzie,
+
+[[00:04:26]]
+jest tylko ukonstytuowanie sekcji, tylko gdzie to jest przypięta. Nie pamiętam tego dokładnie.
+
+[[00:04:36]]
+W 2024 tutaj zrobiłem ten dokument, sobie rozmawialiśmy z dżerem, żeby opisać, co tutaj miało być,
+
+[[00:04:47]]
+jakby to miało wyglądać, jakieś tam założenia, żeby ludzie zrozumieli, którzy będą to czytać, jaki był plan sekcji,
+
+[[00:04:55]]
+plan na jeden semest na rok wszystko naprawdę poszło z fiaskiem, bo jakby nie założyłem, że będą jakieś ogromne problemy,
+
+[[00:05:05]]
+tak samo ludzie będą mieli zainteresowanie w innych kwestiach, albo będą pracować swoim stylem, albo inaczej niż przewidzieliśmy
+
+[[00:05:15]]
+i właściwie ten dokument do niczego się tak nie sprawdził, jedynie to był chyba jakimś moim pokazem biurokratstwa,
+
+[[00:05:24]]
+ale możecie sobie wszystko zobaczyć, jak tu jest cała historia, właściwie tej sekcji jest tutaj.
+
+[[00:05:31]]
+Stworzyliśmy dżerem, ale dżery pożytna matematykę i ma trochę mniej czasu teraz, a on się głównie zajmował takim aspektem biologiczno-chemicznym,
+
+[[00:05:43]]
+gdzie on na początku czytał te artykuły o Alzheimerze, a wtedy wpadł na pomysł, żeby zainteresować się tym szlakiem,
+
+[[00:05:53]]
+no nie metabolicznym, ale z obuśmyszlakiem, którym podąża akwaporyna i jak ona wpływa na czyścienie i na patogenezę tego Alzheimera,
+
+[[00:06:03]]
+no i później wpadliśmy na pomysł, żeby wykorzystywać jakieś tam nowoczesne metody, żeby badać.
+
+[[00:06:12]]
+Ok, czyli widzieliśmy ją w taki sposób, że może nawet pokaże na dysku Google czy innych,
+
+[[00:06:20]]
+o może tutaj pokaże na Discordzie, że tutaj były cztery grupy i to w zależności od zainteresowań każdy miał mieć swój taki konik,
+
+[[00:06:29]]
+którym będzie raczej się specjalizował, bo żeby wiedzieć wszystko na temat tego tworzenia leków, to naprawdę trzeba po prostu być omnibusem i wiedzieć wiele rzeczy,
+
+[[00:06:43]]
+więc tak jak w tym dokumencie założyliśmy, że będzie grupa od analizy molekularnej, czyli to jest to, o czym tutaj na przykład wspominam,
+
+[[00:06:54]]
+jak konkurs OpenADMI, czyli przewidywanie właściwości związków, przewidywanie właściwości związków polega na tym, że bierzemy strukturę zazwyczaj,
+
+[[00:07:06]]
+która jest zapisana w Smiles, z tej struktury próbujemy wywiązkować na podstawie jakiejś konkretnej wiedzy chemicznej,
+
+[[00:07:14]]
+jak Lipiński, O5, są jakieś takie przykładowe rzeczy, które możemy dowiedzieć odnośnie jak dany związek może być lekarstwem,
+
+[[00:07:31]]
+jak bardzo dobrze się przyczynia do tego, żeby nie tworzyć nam krzywdzia, raczej pomagać i na bazie tego ludzi już zaczęli robić jakieś inne przewidywania
+
+[[00:07:42]]
+i na przykład jak sobie teraz wejdziemy na AI AdMet, to jest jakaś grupa z USA, która stworzyła już taki program, który jest serwery łębowym,
+
+[[00:07:59]]
+czyli patrzy na właściwości absorpcji, dystrybucji, metabolizmu czy wydalania czy toksyczności konkretnego związku
+
+[[00:08:08]]
+i możemy sobie na przykład zabrać tej konkretnej aspiryny, Smiles aspiryny i zobaczyć jakie przewidywania,
+
+[[00:08:24]]
+mam nadzieję, że tym przeglodną to AI będzie poprawne, ale chyba raczej nie muszę normalnie skupiować,
+
+[[00:08:32]]
+jakie konkretne właściwości powinna mieć aspiryna według tego predyktor, czyli tutaj nam pokazuje konkretne metryki,
+
+[[00:08:46]]
+jak rozumiemy to odnośnie absorpcji, fizyko-chemiczne rzeczy i jak to wygląda z metabolizmem,
+
+[[00:08:54]]
+czyli opowiadę nam coś o tym, możemy wnioskować na podstawie jakichś dużych danych
+
+[[00:08:59]]
+i to naprawdę ma sens, bo można wykluczyć konkretne związki, czyli mamy grupę analizy molekularnej,
+
+[[00:09:11]]
+czyli zajmowanie się z związkami i to tak jakbyście chcieli sobie zobaczyć na rynku pracy,
+
+[[00:09:20]]
+czy gdzie ludzie zatrudniają to to się nazywa chemii informatyka, czyli jak sobie wyjdziecie na jakieś naprawdę popularne rzeczy,
+
+[[00:09:34]]
+to chemii informatykien, na przykład Molecule One, czy oni mają wystawę na jakiś listing tych swoich prac,
+
+[[00:09:53]]
+no nie, ale pewnie jak mają rekrutowanie, to zdarzy się tego osoba jak chemii informatyczna i to właśnie jest ona,
+
+[[00:10:02]]
+więc jeżeli macie jakieś zainteresowanie odnośnie szukania jakichś w ogromnych bazach danych związków,
+
+[[00:10:09]]
+patrzenie na jakieś właściwości wnioskowania na temat tego,
+
+[[00:10:13]]
+no to mamy takie miejsce i możemy się tym zainteresować, bo jest takie coś jak konkurs OpenAdMee, o którym później opowiem,
+
+[[00:10:23]]
+później była kategoria symulacji i parametryzacji, czyli większość leków, jak badamy to,
+
+[[00:10:31]]
+albo za pomocą jakiejś dedukcji przez AI, albo za pomocą takich symulacji denowo z pierwszych reguł,
+
+[[00:10:44]]
+że mamy reguły fizyczne, próbujemy jakoś przybliżyć do konkretnej dokładności i z tego możemy...
+
+[[00:10:53]]
+Przerwę i zapytam, bo ja jestem z inżynierii karmacy utyszny i ja nie za dużo wiem o bioinformatyce,
+
+[[00:11:03]]
+czy mógłbyś jakieś najważniejsze pojęcia, czy jakieś może indotatki do pomocy na raz,
+
+[[00:11:12]]
+jeśli z bioinformatyki mi podać?
+
+[[00:11:15]]
+Wiesz co, za dużo bioinformatyki nie trzeba znać, bo szczerze stworzenie kierunku bioinformatyka to
+
+[[00:11:23]]
+według mnie to może być naprawdę ogromny stereotyp, ale to jest taki gościu, który jest od jakichś baz danych,
+
+[[00:11:29]]
+czy rozumieniu komputerów i pomagania jakimś innym naukowcom, którzy są w laboratoriach.
+
+[[00:11:35]]
+Oni produkują te dane, ty musisz być administratorem, używać jakichś potoków, żeby sprawdzać te dane,
+
+[[00:11:41]]
+więc w naszych projektach jest takie miejsce, że trzeba wnioskować, bo te wszystkie rzeczy,
+
+[[00:11:48]]
+które potrafi zrobić bioinformatyk to już praktycznie, załóżmy te wszystkie duże modele językowe,
+
+[[00:11:55]]
+one potrafiły to zrobić znacznie wcześniej i wartości, jakie wynosisz z zbycia bioinformatykiem,
+
+[[00:12:03]]
+to raczej łączenie narzędzi i takie zabawy na serwerach, które są na bazie Linuxa
+
+[[00:12:11]]
+i łączeniu jakiejś narzędzi, że masz jakieś blasty, czy, no nie wiem, załóżmy, musisz mieć naprawdę obeznanie,
+
+[[00:12:23]]
+że jak wejdziesz sobie na nich, to musisz wiedzieć, jakie one mają bazy danych i możesz sobie wyobrazić,
+
+[[00:12:34]]
+że no raczej nawet na bioinformatyce uczyli nas, jakie są konkretne bazy dane i żebyśmy wiedzieli, o co w tym chodzi.
+
+[[00:12:41]]
+Więc tutaj raczej nie trzeba tak jak matematyk znać konkretnych zachowań, paradygmatów,
+
+[[00:12:49]]
+tylko raczej staramy się połączyć jakieś narzędzia, plus połączyć jakieś ludzi,
+
+[[00:12:56]]
+żeby zrobić jakieś następne zainteresowanie i taka bioinformatyka wydaje mi się nudna,
+
+[[00:13:03]]
+po prostu nudna, bo jest po prostu, gdy nie były jeszcze może tych czasów,
+
+[[00:13:10]]
+że te wszystkie metody uczenia maszynowego tak wspomagały, to dużo pewnie się robiło ręcznie rzeczy
+
+[[00:13:18]]
+i jak na przykład sobie, nie wiem, wejdziesz na Selvitte, to jest taka słodna firma w Poznaniu,
+
+[[00:13:29]]
+wejdziesz na odkrywanie leków, czym oni się szczycą z Krakowa, to masz Smart Drag Discovery,
+
+[[00:13:38]]
+czyli to, co powinien bioinformatyk robić, to sobie możesz zobaczyć, że on dosłownie ma jakieś narzędzie
+
+[[00:13:44]]
+do robienia jakichś ścieżek metabolicznych i na drugim ekranie patrzę na jakieś białko,
+
+[[00:13:50]]
+więc to nie jest jakiś hardkorowy etat, który trzeba wiedzieć i potrafić,
+
+[[00:13:59]]
+ale oni nawet pokazują, że to jest dosyć nudne i masz jakieś takie programy,
+
+[[00:14:05]]
+jak wizualizacja biznesowej, musisz takie coś robić, a tak to nie musi wyglądać,
+
+[[00:14:10]]
+bo można naprawdę robić ciekawe rzeczy, więc nie ma co się martwić
+
+[[00:14:17]]
+i jak jesteś na inżynierii farmaceutycznej, to po prostu musisz wiedzieć, jak działa komputer
+
+[[00:14:25]]
+albo potrafić używać strzata i jeżeli chcesz, to łatwo się tego nauczysz, a narzędzić.
+
+[[00:14:35]]
+Myślę, że mogę sobie poradzić, bo popłem wcześniej na informatyce.
+
+[[00:14:40]]
+To właściwie dużo rzeczy mówię, więc mogę się to wcześniej powiedzieć i wiedziałbym...
+
+[[00:14:49]]
+Ale na pierwszym roku tylko.
+
+[[00:14:51]]
+To po prostu bioinformatyka z narzędziami, co nie, że konkretny narzędź musisz umieć.
+
+[[00:14:57]]
+I tutaj zakładałem, że ta grupa symulacji i parmetrezacji to ona będzie od tego
+
+[[00:15:01]]
+i jest takie narzędzia jak Gromax albo CP2K
+
+[[00:15:07]]
+i to są takie narzędzia do robienia symulacji molekularnej Gromax, ale może nie bioexcel,
+
+[[00:15:18]]
+tylko po prostu Gromax, to jest takie narzędzia do otworzenia symulacji molekularnych
+
+[[00:15:22]]
+w dosyć dobrej dokładności, dosyć fajnej skali,
+
+[[00:15:29]]
+ale to nie jest jeszcze jakaś wirtualna komórka
+
+[[00:15:32]]
+i to są takie narzędzia, które naprawdę pomagają naukowcom dowiedzieć się o konkretnych zachowaniach
+
+[[00:15:38]]
+i to jest takie na przykład generator danych.
+
+[[00:15:42]]
+Chociaż dużo, nie dużo, ale niektórzy nie wierzę w to,
+
+[[00:15:46]]
+myślą, że to jest dead-end i nie da się symulować całego świata,
+
+[[00:15:51]]
+ale jest dobrze zakotwiczone i jest następne później CP2K,
+
+[[00:15:58]]
+ale to jest odnośnie symulacji kwantowych, schemii kwantowej,
+
+[[00:16:07]]
+gdzie tam patrzysz na konkretne elektrowe i jak to wygląda,
+
+[[00:16:10]]
+więc masz dosyć dużą dokładność, ale zdecydowanie w mniejszą skalę
+
+[[00:16:14]]
+i nie możesz sobie patrzeć na tutaj, jak jest konkretna membrana
+
+[[00:16:19]]
+i jak białko przechodzi z jednego gradientu do drugiego,
+
+[[00:16:24]]
+że coś pchata białko.
+
+[[00:16:27]]
+Więc szczepół podział na grupę symulacji, parmetryzacji,
+
+[[00:16:31]]
+czyli osoby, które powinny się znać na tym i robić to,
+
+[[00:16:35]]
+bo łatwo powiedzieć na przykład, wysymuluj białko na 10 ns,
+
+[[00:16:40]]
+no nie wiem, 50 ns w konkretnym środowisku,
+
+[[00:16:47]]
+ale żeby to dobrze działało, żeby wszystkie energię
+
+[[00:16:50]]
+i wszystkie właściwości fizycznej się zgadzały,
+
+[[00:16:53]]
+które powinny się zgadzać, no to ciężko to zrobić,
+
+[[00:16:56]]
+bo to białko może się rozpość, czy w ogóle źle zrobić
+
+[[00:17:00]]
+i dużo to pieniędzy kosztuje, czy obliczeń,
+
+[[00:17:03]]
+więc to trzeba dobrze umieć zrobić.
+
+[[00:17:05]]
+Później była grupa automatyzacji i optymalizacji,
+
+[[00:17:08]]
+tak wymyślona przez nas to miała być grupa,
+
+[[00:17:12]]
+która sprawdzała na to, jak idą te wszystkie rzeczy
+
+[[00:17:16]]
+i tworzyła jakąś infrastruktura.
+
+[[00:17:20]]
+Jak ostatnio pracowaliśmy, to zakładałem,
+
+[[00:17:22]]
+że to będzie taki członek, który u nas był Konrad Basza,
+
+[[00:17:28]]
+który był na SN-formatyce i miał dużo styczność serwerami,
+
+[[00:17:32]]
+czy tworzenie jakiejś aplikacji i mieliśmy taki pomysł,
+
+[[00:17:36]]
+o którym za chwilę powiem, ale no nie wyszedł,
+
+[[00:17:38]]
+a później była grupa wizualizacji interpretacji,
+
+[[00:17:40]]
+czyli tutaj już raczej jakiś biolchem,
+
+[[00:17:45]]
+gdzie masz wyniki i musisz z nich wyciągnąć wnioski,
+
+[[00:17:48]]
+bo to wszystkie rzeczy, które są w pierwszych trzech grupach,
+
+[[00:17:53]]
+to są narzędzia.
+
+[[00:17:54]]
+Tak naprawdę, jeżeli chce się używać jakiś konkretnych narzędzi,
+
+[[00:17:57]]
+to jest coś fajnego, ale później musi być
+
+[[00:18:01]]
+jakaś osoba, która zobaczy na takie rzeczy
+
+[[00:18:05]]
+i odpowiada na pytanie, które chcemy rozwiązać.
+
+[[00:18:09]]
+Na przykład jest z nami tutaj Szymon,
+
+[[00:18:11]]
+no to jak zaczęliśmy pracę nad projektem,
+
+[[00:18:15]]
+żeby robić ten workflow odnośnie akwaporyny,
+
+[[00:18:18]]
+to założyliśmy, że jest takie potrzebne,
+
+[[00:18:22]]
+potrzebujemy odpowiedzi na pytanie,
+
+[[00:18:24]]
+jeżeli mamy PDB, czyli Protein Data Bank,
+
+[[00:18:28]]
+z takim miejsce, gdzie się składuje białka,
+
+[[00:18:31]]
+że jak sobie na przykład, nie wiem, wpiszemy
+
+[[00:18:38]]
+aquaporin,
+
+[[00:18:42]]
+aquaporin, no to tych wyników będziemy mieli mnóstwo.
+
+[[00:18:47]]
+No i jeżeli sobie zawężymy do konkretnego gatunku,
+
+[[00:18:50]]
+czy coś takiego, do konkretnej akwapryny,
+
+[[00:18:52]]
+to ich będzie mniej, ale musimy w końcu wywnioskować,
+
+[[00:18:54]]
+który chcemy symulować i które będzie naszym celem badawczym,
+
+[[00:19:00]]
+no to Szymon musiał zobaczyć wszystkie te,
+
+[[00:19:03]]
+które były obiecujące białka,
+
+[[00:19:05]]
+zrobić sobie jakąś analizę,
+
+[[00:19:07]]
+nie pamiętam dokładnie jaka to już była,
+
+[[00:19:09]]
+czy to były jakieś narzędzia,
+
+[[00:19:11]]
+czy po prostu sprawdzenie wartości tych plików,
+
+[[00:19:16]]
+dopasowanie do takiej wiedzy biologicznej,
+
+[[00:19:19]]
+na przykład, która rzecz musi być w białku,
+
+[[00:19:22]]
+o której jej nie ma w tej krystalografii,
+
+[[00:19:25]]
+czy coś takiego.
+
+[[00:19:27]]
+A problem był, jak pamiętam to,
+
+[[00:19:29]]
+że była końcówka aquaporyny, która jest wymagana,
+
+[[00:19:33]]
+bo się łączy właśnie z tymi szlakiem,
+
+[[00:19:36]]
+tylko był taki problem,
+
+[[00:19:37]]
+że w większości krystalografii się pomiało
+
+[[00:19:39]]
+i musieliśmy znaleźć taką, która akurat nie pominała jej.
+
+[[00:19:42]]
+Tak, tak, no to, tak jak Szymon powiedział,
+
+[[00:19:44]]
+to jest takie zadanie,
+
+[[00:19:46]]
+które jest takim fundamentem,
+
+[[00:19:50]]
+bo jeżeli zaczniemy symulować złe białko,
+
+[[00:19:52]]
+to nawet jak nie mamy wiedzy biologicznej,
+
+[[00:19:55]]
+to tak naprawdę po prostu się bawimy
+
+[[00:19:57]]
+i no nie, nie, nie wiemy po co to robić.
+
+[[00:20:00]]
+No i to, to, to miało być od wizuacji interpretacji.
+
+[[00:20:02]]
+Więc te trzy grupy, cztery grupy miały być zrobione,
+
+[[00:20:05]]
+tylko że ten podział zbytnio nie poszedł,
+
+[[00:20:07]]
+bo jak niektóre grupy pracowały,
+
+[[00:20:10]]
+tak, że na przykład zadają było prostsze,
+
+[[00:20:13]]
+albo mniej potrzebne było pracy do wykonania tego,
+
+[[00:20:16]]
+to wykonywały wcześniej,
+
+[[00:20:18]]
+inne trochę, później trochę się to rozmowało,
+
+[[00:20:20]]
+nie była takiej konkretnej koordynacji,
+
+[[00:20:22]]
+też nie można wymagać, żeby ktoś
+
+[[00:20:25]]
+robił tak, o nie wiem,
+
+[[00:20:26]]
+swoje, swoje główne zadanie w ciągu dnia,
+
+[[00:20:29]]
+więc wszystko było tak hobistycznie
+
+[[00:20:32]]
+i no, trochę się to zatarło,
+
+[[00:20:35]]
+mogę nawet pokazać na gihabie,
+
+[[00:20:37]]
+ale to później właściwie,
+
+[[00:20:39]]
+żeby, żeby tego nie robić za długo.
+
+[[00:20:43]]
+No dobrze, to już jakby mamy opis,
+
+[[00:20:45]]
+wiadomo co, co, co znaczą te wszystkie grupy,
+
+[[00:20:47]]
+tutaj są pytania i bandpliwości,
+
+[[00:20:49]]
+o których mieliśmy sobie pisać
+
+[[00:20:53]]
+odnośnie jakichś problemów,
+
+[[00:20:54]]
+materiały naukowe,
+
+[[00:20:55]]
+który mieliśmy sobie wysyłać,
+
+[[00:20:58]]
+status tygodnia tutaj miała być spotkania,
+
+[[00:21:01]]
+ale co wydaje mi się,
+
+[[00:21:03]]
+nawet poprawne, bo,
+
+[[00:21:06]]
+a nie wyszło, bo takie spotkania
+
+[[00:21:08]]
+jakby wskazują także pracę ich do przodu
+
+[[00:21:10]]
+i chciałbym ukraść to
+
+[[00:21:13]]
+od, od tajni korp,
+
+[[00:21:16]]
+od dziejochotca,
+
+[[00:21:18]]
+od takiego znanego
+
+[[00:21:19]]
+hakera i przedsiębiorstwa z Ameryki,
+
+[[00:21:22]]
+który stworzył swój taki
+
+[[00:21:24]]
+własny start-up na, na,
+
+[[00:21:26]]
+na pomyśle tworzenia jakieś tam
+
+[[00:21:29]]
+infrastruktury do uczenia maszynowego,
+
+[[00:21:31]]
+oni mają co, co tydzień jakieś takie spotkania
+
+[[00:21:33]]
+i no, nie muszą być zawsze
+
+[[00:21:35]]
+jakieś konkretnie wartościowe,
+
+[[00:21:37]]
+ale jest jakaś agenda
+
+[[00:21:38]]
+i jest wypisane, są wszystkie transkrypty,
+
+[[00:21:40]]
+można sobie zobaczyć jak idzie praca,
+
+[[00:21:44]]
+można sobie zobaczyć, jeżeli nie było
+
+[[00:21:45]]
+i, tak jakby pobudza
+
+[[00:21:48]]
+i stymuluje taką pracę, że
+
+[[00:21:49]]
+wiadomo co, co chcemy robić.
+
+[[00:21:54]]
+No dobrze, no to
+
+[[00:21:55]]
+przejdźmy do, do
+
+[[00:21:56]]
+sekcji, w której oprowadzono
+
+[[00:21:58]]
+projektach.
+
+[[00:22:00]]
+W takim razie może widzieliście to
+
+[[00:22:04]]
+komputerowe projektowanie leków,
+
+[[00:22:06]]
+które, które tak
+
+[[00:22:07]]
+promuje pół żart impu serio.
+
+[[00:22:10]]
+Tutaj były wypisane rzeczy,
+
+[[00:22:12]]
+jakie robiliśmy z jakimś tam,
+
+[[00:22:14]]
+jakimś tam obecnym planem,
+
+[[00:22:16]]
+czy,
+
+[[00:22:19]]
+czy opisem
+
+[[00:22:20]]
+jakichś konkretnych problemów
+
+[[00:22:22]]
+i tutaj jest dużo informacji,
+
+[[00:22:24]]
+których nie, nie, nie, nie będę teraz powtarzał, bo
+
+[[00:22:28]]
+to już raczej jest,
+
+[[00:22:29]]
+to raczej jest takie spotkanie, żeby wskazać
+
+[[00:22:31]]
+jak pracowościwe wygląda,
+
+[[00:22:34]]
+a nie, nie, nie konkretne projekty,
+
+[[00:22:36]]
+bo te projekty za dużo się nie zmieniły,
+
+[[00:22:37]]
+można tylko jakieś nazwy,
+
+[[00:22:39]]
+albo konkretne
+
+[[00:22:41]]
+części zostały dołączone
+
+[[00:22:43]]
+do planu,
+
+[[00:22:45]]
+więc, tak jak napisałem, to jesteśmy obecnie
+
+[[00:22:47]]
+na, na stęp października.
+
+[[00:22:48]]
+Jest już grudzie, ani się nie zmieniło,
+
+[[00:22:50]]
+no ale
+
+[[00:22:52]]
+czas to zmienić, czas, czas
+
+[[00:22:55]]
+wprowadzić coś, coś nowego
+
+[[00:22:56]]
+i zacząć pracować nad tym,
+
+[[00:22:59]]
+bo na przykład będą niedługo konferencje,
+
+[[00:23:01]]
+no na przykład jedna konferencja,
+
+[[00:23:03]]
+czy dwie w następnym roku,
+
+[[00:23:05]]
+w których możemy dostać dofinansowanie
+
+[[00:23:06]]
+i, i jechać,
+
+[[00:23:08]]
+promować naszą pracę, czy
+
+[[00:23:12]]
+popytać ludzi i to by było
+
+[[00:23:13]]
+za darmo lub z jakimś naprawdę
+
+[[00:23:16]]
+dużym wsparciem finansowym
+
+[[00:23:18]]
+i moglibyśmy
+
+[[00:23:19]]
+zacząć naprawdę myśleć o sobie,
+
+[[00:23:22]]
+jak o, o osobach, które
+
+[[00:23:23]]
+badają te ataleki.
+
+[[00:23:28]]
+A dobrze, czyli
+
+[[00:23:29]]
+pierwszy projekt, jaki mieliśmy,
+
+[[00:23:31]]
+to ten workflow, który
+
+[[00:23:32]]
+w tym komputerowym projektowaniu leków
+
+[[00:23:34]]
+jest tutaj jako workflow, computer ID, drag design
+
+[[00:23:37]]
+i jest opisane
+
+[[00:23:39]]
+stworzenie sposobu testowania tysięcy
+
+[[00:23:41]]
+związków o potencjalne działanie terapektycznym
+
+[[00:23:43]]
+aż do etapu przedklinicznego
+
+[[00:23:44]]
+i tutaj jeszcze w nawiasie
+
+[[00:23:46]]
+można dodać badanie
+
+[[00:23:49]]
+mózgu
+
+[[00:23:51]]
+albo nie, zróbmy nie badanie całego
+
+[[00:23:53]]
+mózgu, tylko badanie
+
+[[00:23:55]]
+akupy 4, czyli akwaporyny,
+
+[[00:23:58]]
+jak działa
+
+[[00:23:59]]
+w patogenezie
+
+[[00:24:03]]
+Alzheimera
+
+[[00:24:03]]
+i to można sobie dodać jako tutaj
+
+[[00:24:09]]
+w tym, w tej nazwie
+
+[[00:24:11]]
+tego związku,
+
+[[00:24:12]]
+tego
+
+[[00:24:14]]
+tytułu projektu, ale
+
+[[00:24:15]]
+jeżeli uda nam się
+
+[[00:24:17]]
+zrobić to w pełni, to
+
+[[00:24:19]]
+będziemy znali się tak
+
+[[00:24:22]]
+na dosyć solidnym poziomie
+
+[[00:24:24]]
+do, jakie
+
+[[00:24:26]]
+mogą, nie wiem, takie firmy,
+
+[[00:24:29]]
+no,
+
+[[00:24:33]]
+na przykład jak robi Artigan
+
+[[00:24:36]]
+w Krakowie i oni chyba też się
+
+[[00:24:38]]
+mało cząstkowymi lekami zajmują
+
+[[00:24:39]]
+i to jest taka grupa, która robi
+
+[[00:24:42]]
+AI Indris Cavarino
+
+[[00:24:44]]
+oni się przejszczącają cały czas
+
+[[00:24:46]]
+bo to idzie do przodu, ale
+
+[[00:24:49]]
+no, szczycą się, że mają
+
+[[00:24:50]]
+stół jakiś tam klientów
+
+[[00:24:53]]
+że jakieś tam big farms
+
+[[00:24:56]]
+ich wspomagają
+
+[[00:24:57]]
+i
+
+[[00:24:59]]
+no i pracują nad tym, więc
+
+[[00:25:01]]
+nawet jak sobie wjedziemy w ich karierę
+
+[[00:25:03]]
+to
+
+[[00:25:06]]
+możemy sobie zobaczyć, jakie
+
+[[00:25:08]]
+rzeczy mają i kogo
+
+[[00:25:10]]
+potrzebują, no to, nie wiem, data scientist
+
+[[00:25:14]]
+bioinformatician with next flow
+
+[[00:25:15]]
+czyli to już jest
+
+[[00:25:18]]
+single cell
+
+[[00:25:21]]
+to jest chyba single cell
+
+[[00:25:23]]
+nie wiem, jakieś
+
+[[00:25:25]]
+badania genetyczne na konkretnych
+
+[[00:25:28]]
+tkankach czy komórkach
+
+[[00:25:29]]
+i to już jest raczej w
+
+[[00:25:31]]
+tej nowej metodzie
+
+[[00:25:34]]
+jednokomórkowej
+
+[[00:25:35]]
+no i next flow to jest po prostu narzędzie
+
+[[00:25:38]]
+narzędzie, które trzeba umieść
+
+[[00:25:39]]
+dla analizy genetycznej, ale
+
+[[00:25:43]]
+rozwija się
+
+[[00:25:44]]
+szukają cały czas ludzi
+
+[[00:25:45]]
+i tak jak robimy to hobbyistycznie
+
+[[00:25:48]]
+i tak z
+
+[[00:25:50]]
+zainteresowania to można to przekuć
+
+[[00:25:52]]
+tak jak już pokazuję, drugi przykład
+
+[[00:25:54]]
+czy trzeci
+
+[[00:25:57]]
+w realną karierę
+
+[[00:25:59]]
+czy sposób
+
+[[00:26:00]]
+na
+
+[[00:26:02]]
+znajdzenie siebie w życiu
+
+[[00:26:05]]
+w takim razie
+
+[[00:26:07]]
+tak jak wspomniałem, jestem workflow
+
+[[00:26:09]]
+jako akwaforyna w stanie przed kanałem
+
+[[00:26:11]]
+czyli
+
+[[00:26:13]]
+badamy
+
+[[00:26:14]]
+coś się stało
+
+[[00:26:19]]
+dobra
+
+[[00:26:27]]
+odpisałem na szybko
+
+[[00:26:32]]
+czyli akwaforyna w stanie
+
+[[00:26:34]]
+takim wolnym
+
+[[00:26:36]]
+że jak sobie wejdziemy na PDB
+
+[[00:26:37]]
+to jeszcze nie jest
+
+[[00:26:39]]
+ważne to mam gdzieś
+
+[[00:26:41]]
+ukształtowana w ten kanał, który widać tutaj
+
+[[00:26:44]]
+z czterech monomerów
+
+[[00:26:46]]
+czyli jak oni to chyba nazywają
+
+[[00:26:48]]
+asymmetryk unitz
+
+[[00:26:50]]
+że jak sobie tutaj wejdziemy
+
+[[00:26:51]]
+na Balević-Kalasembli
+
+[[00:26:52]]
+to mam asymmetryk unitz
+
+[[00:26:54]]
+i one które są ułożone w 4
+
+[[00:26:57]]
+tworzą kanał
+
+[[00:26:59]]
+który jest jakby
+
+[[00:27:02]]
+naszym celem bandawczym
+
+[[00:27:04]]
+w astrocytach i w ogóle
+
+[[00:27:06]]
+w komórkach plejowych
+
+[[00:27:08]]
+teraz chcę zrobić zmiany z biologią systemową
+
+[[00:27:11]]
+i
+
+[[00:27:15]]
+staram się skontaktować
+
+[[00:27:17]]
+z profesorami
+
+[[00:27:18]]
+z UMP
+
+[[00:27:19]]
+żeby można było testować
+
+[[00:27:24]]
+do chwila
+
+[[00:27:26]]
+nie chcę wchodzić na LinkedIn
+
+[[00:27:31]]
+bo teraz zlikuję jakieś rzeczy
+
+[[00:27:33]]
+ale pisałem do takiego jednego profesora
+
+[[00:27:36]]
+zgodził się na rozmowę
+
+[[00:27:37]]
+i będziemy rozmawiać
+
+[[00:27:38]]
+on się zajmuje na Uniwersytecie Medycznym
+
+[[00:27:42]]
+tym samym co my chcemy tutaj robić
+
+[[00:27:44]]
+tylko z takiej perspektywy
+
+[[00:27:45]]
+że
+
+[[00:27:51]]
+już raczerłem
+
+[[00:27:52]]
+eksperymenty takie na tkankach
+
+[[00:27:54]]
+czy padają konkretnego związku
+
+[[00:27:56]]
+a nie, nie chcę zrobić jakieś metody
+
+[[00:27:57]]
+na badanie jakiegoś problemu padowczego
+
+[[00:27:59]]
+czyli on ma jakiś tam X
+
+[[00:28:01]]
+później trzeba wyznaczyć
+
+[[00:28:04]]
+właściwości z tego X
+
+[[00:28:05]]
+no i zobaczyć na człowieku
+
+[[00:28:09]]
+jak to się zachowuje
+
+[[00:28:11]]
+czyli od X
+
+[[00:28:12]]
+no i później są
+
+[[00:28:14]]
+jak masz konkretny związek
+
+[[00:28:16]]
+to można zrobić całą publikację
+
+[[00:28:18]]
+i wszystkie rzeczy
+
+[[00:28:20]]
+nie wiem, może nawet doktora
+
+[[00:28:21]]
+na śnieg konkretnego związku
+
+[[00:28:23]]
+jak działa nad człowieka
+
+[[00:28:26]]
+teraz totalny gdota
+
+[[00:28:29]]
+była tylko związana z biologią systemową
+
+[[00:28:31]]
+bo
+
+[[00:28:32]]
+obecnie jak myśmy plani sobie zobaczycie
+
+[[00:28:34]]
+to on był tylko do momentu
+
+[[00:28:37]]
+przedklinicznego
+
+[[00:28:38]]
+ale warto już się zastanawiać
+
+[[00:28:40]]
+co jeżeli osiągniemy ten cel
+
+[[00:28:43]]
+i będziemy mieli konkretny związek
+
+[[00:28:45]]
+X
+
+[[00:28:45]]
+czyli tak jak z tą aspiryną
+
+[[00:28:49]]
+którą męczę
+
+[[00:28:51]]
+naszym celem jest
+
+[[00:28:53]]
+związek małoczęstyczkowy
+
+[[00:28:55]]
+więc łatwo będzie go reprezentować
+
+[[00:28:58]]
+w sumaisie, czyli jak my my ten X
+
+[[00:29:00]]
+zbadaliśmy wszystko
+
+[[00:29:02]]
+wszystko od tego X
+
+[[00:29:04]]
+to teraz
+
+[[00:29:05]]
+mamy tkankę
+
+[[00:29:07]]
+to się nazywa organoid
+
+[[00:29:11]]
+no i badamy na tym organu idzie
+
+[[00:29:13]]
+ten X
+
+[[00:29:15]]
+i to trzeba robić raczej z uniwersytety medycznej
+
+[[00:29:18]]
+bo można sobie syntozować ten związek
+
+[[00:29:20]]
+czy sprawdzić w ogóle
+
+[[00:29:22]]
+jak łatwo się to robi
+
+[[00:29:25]]
+taki urok tych związków
+
+[[00:29:27]]
+małoczęstyczkowych
+
+[[00:29:28]]
+że łatwo pewnie się to robi
+
+[[00:29:29]]
+można kupić sobie w miligramach
+
+[[00:29:32]]
+i sprawdzać
+
+[[00:29:34]]
+tylko może to jest niehumanitarne
+
+[[00:29:36]]
+ma jakiś organoid z komórek
+
+[[00:29:39]]
+które się składają w mózgu
+
+[[00:29:40]]
+i pewnie są do tego zgody
+
+[[00:29:43]]
+kosztuje to i raczej to by musiał być jakiś grant
+
+[[00:29:45]]
+i pomóc dużej złości osób
+
+[[00:29:47]]
+no i to robi ta biologia systemowa
+
+[[00:29:50]]
+czyli
+
+[[00:29:50]]
+to są też te sekcje
+
+[[00:29:53]]
+które zajmują się konkretnie
+
+[[00:29:55]]
+jakimiś ślakami
+
+[[00:29:56]]
+że na
+
+[[00:30:03]]
+bioinformatyce na Politechnice Poznańskiej
+
+[[00:30:05]]
+no
+
+[[00:30:07]]
+tutaj akurat
+
+[[00:30:10]]
+będziemy takie coś mieli
+
+[[00:30:11]]
+i będzie to wytłumaczone
+
+[[00:30:15]]
+bioinformatykach sobie wyjdziemy
+
+[[00:30:17]]
+na pierwszego stopnia
+
+[[00:30:18]]
+to tam chyba na dalszych
+
+[[00:30:21]]
+semestrach
+
+[[00:30:22]]
+jest takie coś jak modelowanie procesów biologicznych
+
+[[00:30:25]]
+czyli to co
+
+[[00:30:27]]
+oznacza ta biologia systemowa
+
+[[00:30:29]]
+plus
+
+[[00:30:36]]
+zastosowane
+
+[[00:30:37]]
+zawansowane nie
+
+[[00:30:38]]
+może modelowanie molecularne
+
+[[00:30:40]]
+ale to już jest raczej ten gromak
+
+[[00:30:41]]
+raczej modelowanie procesów biologicznych
+
+[[00:30:45]]
+czyli patrzenie
+
+[[00:30:47]]
+tak jak ten
+
+[[00:30:49]]
+facet serwity na jakieś szlaki
+
+[[00:30:52]]
+i jak to się wszystko zachowuje
+
+[[00:30:53]]
+żeby zobaczyć takiego biologicznego sensu
+
+[[00:30:56]]
+no bo
+
+[[00:30:56]]
+w biologii systemowej po prostu ludzie się szczycą
+
+[[00:31:00]]
+że tam jest
+
+[[00:31:01]]
+nie wiem z pięć kali
+
+[[00:31:04]]
+pięć skali
+
+[[00:31:06]]
+czasowych
+
+[[00:31:09]]
+czasowych
+
+[[00:31:10]]
+pięć skali nie wiem jeszcze jakiś metryk
+
+[[00:31:13]]
+wielkości
+
+[[00:31:15]]
+czyli jest nie wiem
+
+[[00:31:17]]
+od femtosekunt
+
+[[00:31:19]]
+no to już mnie dobra
+
+[[00:31:21]]
+pikosekunt
+
+[[00:31:23]]
+do milisekunt
+
+[[00:31:25]]
+a w długościach jest to
+
+[[00:31:30]]
+nanometrów
+
+[[00:31:30]]
+albo tych angstromów
+
+[[00:31:32]]
+do
+
+[[00:31:32]]
+nie wiem jakie to mogą być wielkości
+
+[[00:31:34]]
+ale to takie już zauważalne do mikroskopów
+
+[[00:31:37]]
+no i to trzeba zbadać
+
+[[00:31:38]]
+no bo symulacje możemy robić na bardzo krótkie skale
+
+[[00:31:41]]
+ale takie rzeczy to już trzeba badać
+
+[[00:31:43]]
+tymi wszystkimi
+
+[[00:31:45]]
+rzeczami które wymyślili ludzie z biologii
+
+[[00:31:47]]
+czy
+
+[[00:31:50]]
+czy nie wiem
+
+[[00:31:51]]
+jakiś innych miejsc żeby badać tkanki
+
+[[00:31:54]]
+na które chcemy naprawdę oddziałować
+
+[[00:31:57]]
+to tak trochę opisam
+
+[[00:31:58]]
+w skupcie no i później jest workflow
+
+[[00:31:59]]
+jako akwupory na wstanie kanału
+
+[[00:32:01]]
+że możemy robić symulacje membrane
+
+[[00:32:04]]
+przez które przechodzą rzeczy
+
+[[00:32:05]]
+i zajmować się taką rzeczą jak
+
+[[00:32:09]]
+orthogonal array of particles
+
+[[00:32:15]]
+membrane
+
+[[00:32:16]]
+to jest taka struktura która się tworzy
+
+[[00:32:21]]
+w kanałach
+
+[[00:32:22]]
+możecie tutaj zobaczyć
+
+[[00:32:24]]
+m23 i m1 to są chyba
+
+[[00:32:26]]
+tak to są po prostu
+
+[[00:32:29]]
+izomery
+
+[[00:32:29]]
+nie izomery
+
+[[00:32:31]]
+nie konformacjalne
+
+[[00:32:35]]
+inne akwaporyny
+
+[[00:32:37]]
+z jakąś tam zmianą
+
+[[00:32:39]]
+np. chyba nie wiem metylacją w m23
+
+[[00:32:41]]
+albo pierwszym
+
+[[00:32:43]]
+i widać że one tworzą jakieś struktury
+
+[[00:32:45]]
+które są wyglądające jak
+
+[[00:32:47]]
+nie wiem jakiś taki nowotwór
+
+[[00:32:48]]
+który jest nie
+
+[[00:32:51]]
+nie skordylowany
+
+[[00:32:53]]
+dziwny, później jest na dole
+
+[[00:32:55]]
+coś fajnego które wyglądają na normalne
+
+[[00:32:57]]
+przez które mogą sobie przepowiedzieć
+
+[[00:33:00]]
+czy no i te rzeczy
+
+[[00:33:01]]
+mają wpływ na przepływanie
+
+[[00:33:02]]
+i na różne rzeczy
+
+[[00:33:04]]
+że możemy sobie zobaczyć
+
+[[00:33:08]]
+pani męczyniu
+
+[[00:33:10]]
+możemy sobie zobaczyć
+
+[[00:33:12]]
+jak to widać w jakichś ale
+
+[[00:33:17]]
+mikrostkopach elektronowych
+
+[[00:33:18]]
+czy nie nie
+
+[[00:33:19]]
+no to z nanometrach
+
+[[00:33:20]]
+więc że to są takie
+
+[[00:33:24]]
+zmiany no i to możemy też badać
+
+[[00:33:26]]
+z jakimiś symulacjami
+
+[[00:33:28]]
+no to w skali mikro metrów
+
+[[00:33:32]]
+i
+
+[[00:33:32]]
+to tak samo się zająć z biologią systemową
+
+[[00:33:34]]
+tylko że no to jest trochę rozłączne
+
+[[00:33:36]]
+bo badania akwaporyny
+
+[[00:33:38]]
+która jest jeszcze
+
+[[00:33:40]]
+nie zrobiona jako kanał
+
+[[00:33:44]]
+jeszcze pokażę wam
+
+[[00:33:46]]
+komórka
+
+[[00:33:50]]
+komórka astrocytu
+
+[[00:33:51]]
+te astrocyty
+
+[[00:33:53]]
+kiedyś nie zdawałem sprawy
+
+[[00:33:55]]
+ale nie wyglądają po prostu jak
+
+[[00:33:57]]
+jakiś słownie szum
+
+[[00:33:59]]
+jak
+
+[[00:34:01]]
+kompletnie niezorganizowana komórka
+
+[[00:34:03]]
+ale
+
+[[00:34:06]]
+ona z miejsca
+
+[[00:34:08]]
+gdzie są rybosomy
+
+[[00:34:09]]
+czy jakieś inne narzędzie do tworzenia
+
+[[00:34:12]]
+tych białek ona musi przejść przez ten cały szlak
+
+[[00:34:15]]
+do tych końcówek
+
+[[00:34:17]]
+i tam umieścić się jako kanał
+
+[[00:34:21]]
+więc to jest kompletnie jej na skalę badań
+
+[[00:34:23]]
+bo my patrzymy jak alfa centrofina
+
+[[00:34:26]]
+z tą akwaporyną
+
+[[00:34:29]]
+jakby oddziałuje
+
+[[00:34:31]]
+i pomaga
+
+[[00:34:32]]
+przejść do tego miejsca kanału
+
+[[00:34:34]]
+ale też może być badanie jak po prostu ten kanał jest
+
+[[00:34:37]]
+i zobaczyć na przykład
+
+[[00:34:39]]
+nie wiem jak konkretna motacja akwaporyny
+
+[[00:34:41]]
+tworzy białko
+
+[[00:34:43]]
+jak to białko później tworzy te
+
+[[00:34:46]]
+orthogonal areas of particles
+
+[[00:34:47]]
+i zobaczyć
+
+[[00:34:50]]
+jak nie wiem
+
+[[00:34:52]]
+związki przechodzą przez to albo konkretne białka
+
+[[00:34:54]]
+i badać
+
+[[00:34:56]]
+takie coś
+
+[[00:34:58]]
+dobra to wiemy już jakie może być
+
+[[00:35:00]]
+workflow jako akwaporyna w stanie kanału
+
+[[00:35:02]]
+albo w stanie przed kanałem
+
+[[00:35:05]]
+później jest tworzenie paczki
+
+[[00:35:07]]
+piemarlo
+
+[[00:35:08]]
+to była taka rzecz
+
+[[00:35:11]]
+którą możecie tutaj zauważyć
+
+[[00:35:14]]
+jak po prostu jakieś dzienniki
+
+[[00:35:17]]
+odkrywcze
+
+[[00:35:18]]
+że tutaj były
+
+[[00:35:20]]
+były nasze badania, później przyszliśmy do momentu
+
+[[00:35:22]]
+gdzie trzeba zbadać
+
+[[00:35:25]]
+jak wygląda konformacja białka
+
+[[00:35:26]]
+żeby zobaczyć alusterycznie
+
+[[00:35:28]]
+czy jest lepsze działowanie na tym
+
+[[00:35:30]]
+czy nad tym
+
+[[00:35:33]]
+i wybrać konkretne
+
+[[00:35:35]]
+konformacje do semulacji
+
+[[00:35:36]]
+no to to jest taka paczka która stara się to zrobić
+
+[[00:35:38]]
+metodą taka jak jest wypisane
+
+[[00:35:41]]
+na tej stronie
+
+[[00:35:42]]
+czyli tam jakimiś sztuczkami
+
+[[00:35:43]]
+jakąś metodę nomiką
+
+[[00:35:45]]
+żeby rozwiązać ten problem w jakiś inny sposób
+
+[[00:35:48]]
+i tak jak rozmawiałem
+
+[[00:35:50]]
+z jakimiś
+
+[[00:35:52]]
+no nie będę teraz wymieniał z nazwiska
+
+[[00:35:54]]
+osobami z
+
+[[00:35:55]]
+naszego instytutu to to jest
+
+[[00:35:57]]
+naprawdę ciekawy pomysł
+
+[[00:35:59]]
+i jeżeli wymyślić fajny eksperyment
+
+[[00:36:00]]
+który to pokażę
+
+[[00:36:02]]
+to to by było naprawdę ciekawe
+
+[[00:36:04]]
+i takie powietrza
+
+[[00:36:08]]
+a nie jeżeli jakiś
+
+[[00:36:10]]
+robię serwer
+
+[[00:36:11]]
+żeby używał tego programu
+
+[[00:36:13]]
+kroniec.
+
+[[00:36:14]]
+więc jeżeli macie jakiś taki sznyc do programowania
+
+[[00:36:18]]
+czy bagienia się
+
+[[00:36:19]]
+w jakiś software engineering
+
+[[00:36:21]]
+to możecie pomóc
+
+[[00:36:24]]
+i
+
+[[00:36:26]]
+zobaczycie jak możecie się wdrozić
+
+[[00:36:27]]
+w tworzenie paczki
+
+[[00:36:28]]
+czyli to jest taka rzecz która
+
+[[00:36:31]]
+może być włączona
+
+[[00:36:32]]
+do tego projektu workflow
+
+[[00:36:34]]
+ale nie musi, bo są też inne metody
+
+[[00:36:36]]
+do szukania konformacji
+
+[[00:36:38]]
+które są znacznie prostsze
+
+[[00:36:40]]
+no i z tej paczki już mamy
+
+[[00:36:42]]
+jakieś konformacje i możemy testować
+
+[[00:36:47]]
+mamy już konformacje
+
+[[00:36:53]]
+tak, więc
+
+[[00:36:53]]
+jest tych konformacji chyba metastabilnych
+
+[[00:36:56]]
+nie wiem tam z 15, stabilne są
+
+[[00:36:58]]
+dwie, no to mamy
+
+[[00:37:02]]
+17 miejsc
+
+[[00:37:06]]
+do symulacji
+
+[[00:37:08]]
+tak, więc to jest taka
+
+[[00:37:10]]
+oboczna rzecz dla osób które robiłam programowanie
+
+[[00:37:12]]
+i robienie jakieś rzeczy
+
+[[00:37:13]]
+żeby to nie był taki
+
+[[00:37:16]]
+eksperyment który się ciąży
+
+[[00:37:17]]
+i nie wiem
+
+[[00:37:20]]
+3 tygodnie pracy jest dla jednego wniosku
+
+[[00:37:22]]
+a może raczej takie narzędzie dla innych ludzi
+
+[[00:37:25]]
+który można opublikować
+
+[[00:37:26]]
+i pokazać portfolio
+
+[[00:37:30]]
+później jest konkurs OpenADMI
+
+[[00:37:33]]
+to już Wam pokazuję na
+
+[[00:37:34]]
+HuggingFace
+
+[[00:37:36]]
+tak jak było napisane na tej
+
+[[00:37:38]]
+stronie sekcji jest takie coś jak
+
+[[00:37:41]]
+przygotowania do Polaris Hub
+
+[[00:37:42]]
+no to Polaris Hub wypuścił ten sam
+
+[[00:37:44]]
+ale podobny konkurs który opierał się
+
+[[00:37:46]]
+na podobnych rzeczach
+
+[[00:37:49]]
+czyli wykorzystywanie uczenia maszynowego
+
+[[00:37:51]]
+do przewidowania
+
+[[00:37:53]]
+jakichś tam związków
+
+[[00:37:56]]
+właściwości
+
+[[00:37:56]]
+no i możemy sobie zobaczyć
+
+[[00:37:58]]
+jakie
+
+[[00:38:00]]
+osoby tutaj biorą udział
+
+[[00:38:01]]
+jakie mają wyniki, możemy sobie porównać
+
+[[00:38:04]]
+możemy dołączyć no i discorda
+
+[[00:38:05]]
+no i rywalizować jako
+
+[[00:38:07]]
+zespół czyli cała sekcja
+
+[[00:38:09]]
+i uczyć się
+
+[[00:38:13]]
+na praktycznych rzeczach
+
+[[00:38:15]]
+o odnośnie uczenia maszynowego
+
+[[00:38:16]]
+i wystartować w tym konkursie
+
+[[00:38:19]]
+ja bym chciał zacząć już tak pracować
+
+[[00:38:22]]
+nad tym niedługo bo
+
+[[00:38:23]]
+cały ten konkurs stwa kilka miesięcy
+
+[[00:38:25]]
+i jest raczej nie wiem do lutego czy stycznia
+
+[[00:38:34]]
+a nie
+
+[[00:38:34]]
+to to to to
+
+[[00:38:37]]
+chyba konkretny leader board
+
+[[00:38:39]]
+ale wydaje mi się
+
+[[00:38:40]]
+że będzie troszkę dużej
+
+[[00:38:41]]
+ten konkurs to później
+
+[[00:38:44]]
+jeszcze muszę zobaczyć ale
+
+[[00:38:49]]
+żeby teraz nie przedłużać
+
+[[00:38:51]]
+timeline
+
+[[00:38:53]]
+submission closes
+
+[[00:38:54]]
+tak do januariu czyli
+
+[[00:38:56]]
+no jeszcze trochę czasu jest
+
+[[00:38:58]]
+z tyczem
+
+[[00:38:59]]
+więc mamy dwa miesiące
+
+[[00:39:01]]
+żeby się pobawić na tyczanie maszynowym
+
+[[00:39:02]]
+a to nie jest jakieś trudne
+
+[[00:39:05]]
+trzeba po prostu znać
+
+[[00:39:07]]
+sztuczkę za sztuczką
+
+[[00:39:09]]
+za sztuczką plus
+
+[[00:39:11]]
+mieć jakieś tam konkretny pre-training
+
+[[00:39:13]]
+żeby mieć jakąś bazy danych
+
+[[00:39:15]]
+no i to to będzie
+
+[[00:39:17]]
+jakiś procent taki składany
+
+[[00:39:20]]
+który tam zwiększy wynik
+
+[[00:39:21]]
+nie robiliśmy tego jeszcze w sekcji
+
+[[00:39:24]]
+i to jest taki plan żeby
+
+[[00:39:26]]
+żeby zająć się tym
+
+[[00:39:27]]
+żeby trochę pokazać osobom
+
+[[00:39:29]]
+zuczania maszynowego
+
+[[00:39:30]]
+że też możemy coś robić
+
+[[00:39:33]]
+i to związane z projektowaniem
+
+[[00:39:35]]
+leków
+
+[[00:39:37]]
+i tutaj wiedza domenowa może się przydać
+
+[[00:39:40]]
+później projekt
+
+[[00:39:41]]
+jaki chce robić to jest wspólna nauka
+
+[[00:39:43]]
+odnośnie alchemilab
+
+[[00:39:46]]
+bo problem był taki
+
+[[00:39:47]]
+że jakby wyrożenie się do tego projektu
+
+[[00:39:50]]
+jest trochę ciężkie
+
+[[00:39:51]]
+i jest dużo miejsc
+
+[[00:39:54]]
+które mogą przytłoczyć
+
+[[00:39:56]]
+dużo też trzeba mieć własnej chęci
+
+[[00:39:59]]
+żeby tutaj robić rzeczy
+
+[[00:40:00]]
+bo no
+
+[[00:40:02]]
+ja jakby nie zakładam prowadzenia za rękę
+
+[[00:40:04]]
+bo no to będzie
+
+[[00:40:06]]
+jakby widoczne na
+
+[[00:40:09]]
+to będzie publiczne
+
+[[00:40:10]]
+będą mogli sobie ludzie posłuchać
+
+[[00:40:12]]
+ale no moja prywatna opinia jest taka
+
+[[00:40:14]]
+że konkretne wykłady
+
+[[00:40:17]]
+dla początkujących
+
+[[00:40:19]]
+które były w innej sekcji
+
+[[00:40:21]]
+no one za dużo nie wnosiłej
+
+[[00:40:23]]
+i jeżeli mam słuchać kogoś
+
+[[00:40:25]]
+kto
+
+[[00:40:26]]
+udaje że coś umie
+
+[[00:40:28]]
+albo dopiero coś potrafi
+
+[[00:40:29]]
+i jeszcze sobie wszystko klaruje w głowie
+
+[[00:40:32]]
+zamiast nie wiem uczyć się
+
+[[00:40:33]]
+od jakiegoś profesora MIT
+
+[[00:40:35]]
+gdzie robi jakiś wykład na
+
+[[00:40:37]]
+nie wiem jak
+
+[[00:40:39]]
+nie wiem, on się nazywał chyba Albert
+
+[[00:40:47]]
+linearer algebry
+
+[[00:40:49]]
+linearwej
+
+[[00:40:49]]
+on chyba się Gilbert Schrank nazywał
+
+[[00:40:52]]
+no to wybór jest prosty
+
+[[00:40:54]]
+po angielsku potrafić
+
+[[00:40:56]]
+potrafimy rozmagać
+
+[[00:40:58]]
+no i nie trzeba się spotykać
+
+[[00:40:59]]
+żeby ktoś tłumaczył coś
+
+[[00:41:02]]
+więc zakładam
+
+[[00:41:04]]
+że tutaj jak są pytania
+
+[[00:41:06]]
+to raczej główkujemy się nad nimi
+
+[[00:41:08]]
+co tydzień albo na tym dyskordzie
+
+[[00:41:11]]
+że ja tutaj trochę tak spamowałem
+
+[[00:41:13]]
+tymi swoimi rzeczami
+
+[[00:41:14]]
+jakiś taki maniak
+
+[[00:41:15]]
+ale zakładam
+
+[[00:41:17]]
+że i więcej maniaków tym lepiej
+
+[[00:41:22]]
+no dobrze
+
+[[00:41:23]]
+to jest ten konkurs
+
+[[00:41:25]]
+admin dla osób które lubią uczenie
+
+[[00:41:27]]
+maszynowe i
+
+[[00:41:29]]
+chemii informatykę
+
+[[00:41:30]]
+a nie bardziej jakieś takie badania
+
+[[00:41:33]]
+fundamentalne odnośnie alzheimer
+
+[[00:41:34]]
+no to jest wspólne nauka odnośnie alchemilab
+
+[[00:41:40]]
+jest takie coś
+
+[[00:41:41]]
+dużo przyglądam Twittera i tam sprawdzam
+
+[[00:41:44]]
+sobie jakie są nowości
+
+[[00:41:46]]
+jest taka osoba
+
+[[00:41:48]]
+z jakiegoś uniwersytetu
+
+[[00:41:50]]
+w Ameryce i ostatnio znalazłem
+
+[[00:41:52]]
+że zrobiła jakiś taki
+
+[[00:41:54]]
+dosyć interesujący projekt
+
+[[00:41:56]]
+odnośnie
+
+[[00:41:58]]
+symulacji tych białek
+
+[[00:41:59]]
+za pomocą mojej
+
+[[00:42:00]]
+no i ona ma
+
+[[00:42:02]]
+taki przykład żebyśmy mogli sobie przejść
+
+[[00:42:05]]
+na przykład przez
+
+[[00:42:08]]
+dwójpu godzinny
+
+[[00:42:10]]
+breakdown jak zrobić konkretną rzecz
+
+[[00:42:11]]
+czyli jak zrobić konkretny transformę
+
+[[00:42:13]]
+a ja tego jeszcze nie widziałem na oczy
+
+[[00:42:16]]
+i
+
+[[00:42:17]]
+tu jest skodem, tu jest wytłumaczenie
+
+[[00:42:19]]
+i moglibyśmy sobie przejrzeć
+
+[[00:42:21]]
+takie coś przez np.
+
+[[00:42:24]]
+1000 czy 2
+
+[[00:42:25]]
+spróbować to zainplementować
+
+[[00:42:27]]
+zrozumieć te wzory
+
+[[00:42:29]]
+i
+
+[[00:42:31]]
+spróbować stworzyć własny transformer
+
+[[00:42:33]]
+zainteresować się metodami grafowymi
+
+[[00:42:36]]
+no i tu są 3 takie rzeczy
+
+[[00:42:38]]
+3 blog postyma w ciągu
+
+[[00:42:40]]
+w ciągu 2 lat
+
+[[00:42:42]]
+ale no wydaje mi się, że to jest
+
+[[00:42:45]]
+wartościowe i wiele nauczyło
+
+[[00:42:47]]
+i to jest tak
+
+[[00:42:48]]
+że no ja tego nie potrafię
+
+[[00:42:50]]
+i bym musiał się uczyć z wami
+
+[[00:42:53]]
+więc
+
+[[00:42:54]]
+to by było takie miejsce do
+
+[[00:42:56]]
+wspólnego uczenia się odnośnie tego drag
+
+[[00:42:58]]
+designu
+
+[[00:43:01]]
+transformer
+
+[[00:43:02]]
+no i protein folding prediction
+
+[[00:43:05]]
+czyli ołowienie jakiś tam
+
+[[00:43:07]]
+resultat TTA folder
+
+[[00:43:09]]
+to jeżeli by byli chętni
+
+[[00:43:11]]
+to możemy sobie robić wspólnie bo
+
+[[00:43:13]]
+wydaje mi się, że bym robił to samemu
+
+[[00:43:15]]
+a takie coś w zakresie
+
+[[00:43:18]]
+sekcji może promować
+
+[[00:43:20]]
+uczenie się odnośnie tych metod
+
+[[00:43:22]]
+uczenia mszynowego
+
+[[00:43:23]]
+no i taką komplementarną rzecz
+
+[[00:43:26]]
+którą moglibyśmy się uczyć
+
+[[00:43:28]]
+na temat konceptów
+
+[[00:43:30]]
+programowania no bo nie będziemy się zastanawiać
+
+[[00:43:32]]
+jak napisać ten code w Pythonie
+
+[[00:43:33]]
+chociaż to zrobimy
+
+[[00:43:34]]
+ale to raczej zrozumienie tego całego
+
+[[00:43:38]]
+diagramu
+
+[[00:43:39]]
+który ona tutaj prezentuje
+
+[[00:43:41]]
+jak stworzyć
+
+[[00:43:43]]
+no może nie jak stworzyć
+
+[[00:43:46]]
+resultat TTA folder
+
+[[00:43:48]]
+ale no jak zrobisz na przykład
+
+[[00:43:49]]
+transformer do
+
+[[00:43:51]]
+prediction informacji
+
+[[00:43:52]]
+bo jakbyśmy takie coś zrobili
+
+[[00:43:55]]
+no to większość
+
+[[00:43:57]]
+tego całego naszego workflow
+
+[[00:43:59]]
+mogłoby być w jednym programie
+
+[[00:44:00]]
+bo mamy ligant, związek na przykład
+
+[[00:44:02]]
+tak jak aspirana o którym mówię
+
+[[00:44:04]]
+mamy tę swoją akwaporytę
+
+[[00:44:07]]
+robimy te wszystkie szczuczki
+
+[[00:44:09]]
+na macierzach
+
+[[00:44:11]]
+że tak to nazwę trochę
+
+[[00:44:14]]
+sproszczając
+
+[[00:44:15]]
+no i mamy produkcję jak to się utrzymuje
+
+[[00:44:17]]
+więc te metody wszystkie są
+
+[[00:44:19]]
+możemy się zagłębić
+
+[[00:44:21]]
+to jako bardziej
+
+[[00:44:23]]
+to jest
+
+[[00:44:26]]
+naukowcy, programiści
+
+[[00:44:27]]
+no i spróbować zobaczyć
+
+[[00:44:29]]
+jakie będziemy mieli wyniki
+
+[[00:44:31]]
+też będę się starał
+
+[[00:44:34]]
+o jakieś
+
+[[00:44:35]]
+moce obliczeniowe żebyśmy dostali
+
+[[00:44:37]]
+żebyśmy mogli sobie testować nasze rzeczy
+
+[[00:44:39]]
+będę o to wnioskował dla innych
+
+[[00:44:45]]
+nie dla innych tylko
+
+[[00:44:47]]
+do osób które wspierają
+
+[[00:44:48]]
+koła
+
+[[00:44:49]]
+czyli to jest taka nowość, której nie było
+
+[[00:44:52]]
+i też osoby
+
+[[00:44:55]]
+które były wcześniej w kole
+
+[[00:44:56]]
+no
+
+[[00:44:59]]
+nie będę wskazywał
+
+[[00:45:00]]
+ale po prostu osoby które były wcześniej
+
+[[00:45:04]]
+mówiły
+
+[[00:45:05]]
+że jest problem z
+
+[[00:45:07]]
+jeżeli ktoś jest niezależny to
+
+[[00:45:08]]
+to fajnie
+
+[[00:45:10]]
+ale czasami warto też
+
+[[00:45:13]]
+posiedzieć nad własnym problemem
+
+[[00:45:14]]
+i wzajemnie się motywować
+
+[[00:45:16]]
+bo czasami tego może zabraknąć
+
+[[00:45:17]]
+i jeżeli coś nie wisi nad głową
+
+[[00:45:20]]
+albo nie ma jakiegoś smaka
+
+[[00:45:22]]
+na robienie rzeczy to to gaśnie
+
+[[00:45:26]]
+no i też miałem pomysł
+
+[[00:45:28]]
+jeżeli ktoś był zainteresowany
+
+[[00:45:30]]
+to stworzenie takiego serwera
+
+[[00:45:32]]
+do prostych narzędzi takich jak to
+
+[[00:45:34]]
+tak jak wcześniej wypominałem
+
+[[00:45:37]]
+że to jest raczej
+
+[[00:45:39]]
+takie pójście na łatwiznę
+
+[[00:45:42]]
+żeby zrobić taki serwer
+
+[[00:45:43]]
+bo można sobie
+
+[[00:45:45]]
+całą pracę, nie wiem, inżynierską
+
+[[00:45:47]]
+czy magisterkę zrobić
+
+[[00:45:49]]
+na ten temat, że zrobiłem serwer
+
+[[00:45:53]]
+i na nim działa
+
+[[00:45:55]]
+jakiś konkretny program
+
+[[00:45:56]]
+i to pomaga ludziom
+
+[[00:46:00]]
+i chciałem pokazać Wam
+
+[[00:46:01]]
+na przykład taką rzecz
+
+[[00:46:03]]
+którą
+
+[[00:46:08]]
+mam przygotowaną
+
+[[00:46:10]]
+gdzie ona jest
+
+[[00:46:11]]
+czyli jest taka aplikacja
+
+[[00:46:13]]
+Krain Vent, ona jest zrobiona przez
+
+[[00:46:15]]
+AstraZeneca
+
+[[00:46:16]]
+Krain Vent 4
+
+[[00:46:18]]
+i ona zajmuje się
+
+[[00:46:22]]
+chemiąinformatyką i tworzenie
+
+[[00:46:23]]
+związków przez AI
+
+[[00:46:26]]
+mało cząsteczkowych
+
+[[00:46:27]]
+no i ona jest naprawdę taką
+
+[[00:46:31]]
+mocnym narzędziem
+
+[[00:46:32]]
+który trzeba umieć używać
+
+[[00:46:34]]
+no i ktoś sobie pomyślał
+
+[[00:46:36]]
+dobra, no to ja stworzę
+
+[[00:46:37]]
+serwer który
+
+[[00:46:39]]
+będzie tworzył pliki
+
+[[00:46:41]]
+które będą później przetwarzane
+
+[[00:46:43]]
+przez tę
+
+[[00:46:45]]
+przez tą aplikację
+
+[[00:46:47]]
+i stworzył całą
+
+[[00:46:50]]
+stworzył na tym sobie cały projekt
+
+[[00:46:52]]
+gdyż tu się ma jakiś
+
+[[00:46:54]]
+ale nie
+
+[[00:46:55]]
+gdzie to jest welcome
+
+[[00:47:00]]
+tutaj jest
+
+[[00:47:02]]
+Krain Vent 4
+
+[[00:47:03]]
+i tutaj można sobie zrobić jakieś parametry
+
+[[00:47:05]]
+wszystko wypisać żeby to nie było
+
+[[00:47:06]]
+jakiś komendach czy coś
+
+[[00:47:08]]
+i wtedy możemy działać dalej
+
+[[00:47:11]]
+no to takie coś możemy
+
+[[00:47:16]]
+wymyślić
+
+[[00:47:17]]
+wymyślać
+
+[[00:47:18]]
+i stworzyć taki obserwant na konkretne narzędzie
+
+[[00:47:20]]
+które jest jeszcze
+
+[[00:47:22]]
+nowsze, jeszcze
+
+[[00:47:24]]
+nie jest tak dobrze
+
+[[00:47:26]]
+zainplementowane, że ludzie jeszcze
+
+[[00:47:28]]
+się trochę boją tego używać
+
+[[00:47:30]]
+i to nie jest trochę awangardowe
+
+[[00:47:32]]
+a my możemy właśnie pomóc
+
+[[00:47:36]]
+ja też bym chciał
+
+[[00:47:37]]
+robić inżynierkę
+
+[[00:47:39]]
+z konkretną rzeczą, odnośnie
+
+[[00:47:41]]
+pomagania, używania jakichś problemów
+
+[[00:47:43]]
+ale
+
+[[00:47:45]]
+na tyle by wyglądało
+
+[[00:47:47]]
+no to są takie raz, dwa
+
+[[00:47:49]]
+konkurs
+
+[[00:47:51]]
+cztery rzeczy
+
+[[00:47:52]]
+które można by było robić i chciałbym robić
+
+[[00:47:55]]
+jeżeli by było zainteresowanie
+
+[[00:47:56]]
+oczywiście wszystkie rzeczy możemy
+
+[[00:47:59]]
+zmienić albo pominąć
+
+[[00:48:01]]
+no bo tworzenie takiego serwera jest raczej prostsze
+
+[[00:48:04]]
+da się zrobić
+
+[[00:48:05]]
+krok po kroku, bo już mamy
+
+[[00:48:07]]
+to czynne wzorce
+
+[[00:48:10]]
+pracę
+
+[[00:48:11]]
+nad takim czymś
+
+[[00:48:12]]
+a
+
+[[00:48:17]]
+reszcze jest trochę na przykład trudniejsze
+
+[[00:48:18]]
+tak z trudności bym założył
+
+[[00:48:20]]
+że najłatwiejsze to by było stworzenie serwera
+
+[[00:48:22]]
+a później
+
+[[00:48:24]]
+wspólna nauka odnośnie tego alchemilapii
+
+[[00:48:26]]
+implementacja tych wszystkich najnowszych technologii
+
+[[00:48:28]]
+później
+
+[[00:48:29]]
+ten konkurs opłynadmi
+
+[[00:48:31]]
+a na końcu ten workflow akwoporyny
+
+[[00:48:33]]
+gdzie może milion rzeczy pójść
+
+[[00:48:35]]
+a jeszcze pimarlo
+
+[[00:48:38]]
+na poziomie trudności tego workflow
+
+[[00:48:40]]
+że tam trzeba naprawdę
+
+[[00:48:43]]
+robić eksperymenty
+
+[[00:48:44]]
+i też jest duży codebase
+
+[[00:48:47]]
+bo
+
+[[00:48:49]]
+dosyć długo to robię
+
+[[00:48:52]]
+i zapraszam wszystkich do robienia
+
+[[00:48:54]]
+ze mną
+
+[[00:48:55]]
+no dobra to są takie projekty, które robimy
+
+[[00:48:58]]
+mam nadzieję, że macie
+
+[[00:49:00]]
+jakieś takie
+
+[[00:49:02]]
+jakieś odczucie jak wygląda pracę tutaj
+
+[[00:49:04]]
+że no
+
+[[00:49:06]]
+jeżeli nie chcesz albo nie dajesz
+
+[[00:49:08]]
+szlady no to
+
+[[00:49:10]]
+no to trudno
+
+[[00:49:11]]
+ale jeżeli chcesz to
+
+[[00:49:13]]
+to możemy się nawzajemotywować i robić
+
+[[00:49:17]]
+no to jak wyglądał
+
+[[00:49:19]]
+podział pracy to wspomina
+
+[[00:49:21]]
+właściwie na początku
+
+[[00:49:22]]
+to trochę pomyliłem tą agendę
+
+[[00:49:24]]
+była na przykład grupa
+
+[[00:49:26]]
+chemii informatyki, która miała się zajmować algorytmami
+
+[[00:49:29]]
+do klastrowania
+
+[[00:49:32]]
+była grupa właśnie z Szymkiem
+
+[[00:49:34]]
+i z Tasiem
+
+[[00:49:35]]
+i Agodą, gdzie oni sobie
+
+[[00:49:37]]
+anonizowali te
+
+[[00:49:40]]
+te białka
+
+[[00:49:41]]
+strukturalnie
+
+[[00:49:42]]
+później była ta trzecia
+
+[[00:49:46]]
+infrastruktura, gdzie byłem jajko nad Warszawa
+
+[[00:49:49]]
+próbowaliśmy
+
+[[00:49:50]]
+stworzyć ten serwer
+
+[[00:49:52]]
+autogrow
+
+[[00:49:52]]
+z bardzo danych
+
+[[00:49:57]]
+w Postgresie
+
+[[00:49:58]]
+żeby to stało na kimś serwerze
+
+[[00:50:00]]
+żeby można było dodawać związki
+
+[[00:50:02]]
+eksperymentować i to jest fajny pomysł
+
+[[00:50:04]]
+żeby mieć taką własną bazę danych
+
+[[00:50:07]]
+bo
+
+[[00:50:08]]
+jeżeli byśmy na przykład dostali od kogoś
+
+[[00:50:10]]
+z Politychniki grant, mogli sobie postawić
+
+[[00:50:12]]
+taki serwer i tam hustować
+
+[[00:50:14]]
+wszystkie nasze dane
+
+[[00:50:15]]
+to już ma wartość taką, że
+
+[[00:50:19]]
+na przykład coś badaliśmy i mamy jakieś wnioski
+
+[[00:50:23]]
+na wizualizacji
+
+[[00:50:24]]
+interpretacji jeszcze nie mieliśmy
+
+[[00:50:25]]
+bo no nie mieliśmy za dużo wniosków
+
+[[00:50:28]]
+które możemy sobie wyciągnąć
+
+[[00:50:30]]
+z tego
+
+[[00:50:31]]
+a wszystkie wnioski jakieś tutaj
+
+[[00:50:34]]
+na razie możecie zobaczyć
+
+[[00:50:35]]
+to maniekalne pisanie
+
+[[00:50:37]]
+na Discordzie
+
+[[00:50:40]]
+teraz pytanie czy spotykamy się na żywo
+
+[[00:50:45]]
+raczej nie było takiej potrzeby
+
+[[00:50:46]]
+bo ostatnio
+
+[[00:50:48]]
+ta sekcja pracowała, to większość
+
+[[00:50:50]]
+było z naszego roku
+
+[[00:50:52]]
+i dosłownie nie wiem 7-8 osób
+
+[[00:50:54]]
+które były w naszej sekcji to było
+
+[[00:50:56]]
+na naszym roku i widzieliśmy się praktycznie
+
+[[00:50:58]]
+codziennie, więc
+
+[[00:51:00]]
+raczej myślałem, że to będą takie spotkania
+
+[[00:51:02]]
+na Discordzie, ale
+
+[[00:51:05]]
+to też nie wyszło
+
+[[00:51:06]]
+czyli to tak umarło
+
+[[00:51:07]]
+trochę i uważam, że
+
+[[00:51:10]]
+to jest takie postmortem, że
+
+[[00:51:12]]
+to jest taka rzecz, która
+
+[[00:51:14]]
+trochę zagubiła niektórych ludzi
+
+[[00:51:16]]
+i fajnie by było to poprawić
+
+[[00:51:18]]
+żeby widzieć jakie rzeczy robimy
+
+[[00:51:22]]
+i
+
+[[00:51:22]]
+czyli no jeżeli będzie potrzeba
+
+[[00:51:25]]
+spotkać się na żywo, a na przykład
+
+[[00:51:26]]
+nie w bibliotece, czy
+
+[[00:51:29]]
+pogadać, nie wiem
+
+[[00:51:30]]
+wyjść na jakąś integrację, czy coś, jak będzie cieplej
+
+[[00:51:32]]
+dla to za pół roku, czy coś
+
+[[00:51:34]]
+to możemy się zobaczyć, ale
+
+[[00:51:37]]
+no raczej
+
+[[00:51:39]]
+no nie wiem, mi
+
+[[00:51:40]]
+osobiście pracuje się lepiej jak jestem u siebie
+
+[[00:51:42]]
+w domu i mam taki swój state
+
+[[00:51:44]]
+i tylko
+
+[[00:51:46]]
+no nie wiem, analizuję albo
+
+[[00:51:49]]
+piszę z kimś innym, więc
+
+[[00:51:50]]
+zakładam, że to wygląda tę pracę
+
+[[00:51:53]]
+no a tutaj nie mam jakiegoś
+
+[[00:51:55]]
+hierarchu i nikt nie zmusza nas
+
+[[00:51:57]]
+do bycia na jakiś
+
+[[00:51:59]]
+impreza, gdzie nie chcemy być
+
+[[00:52:01]]
+ale no to wszystko zależy
+
+[[00:52:03]]
+od
+
+[[00:52:04]]
+chęci
+
+[[00:52:07]]
+czy jesteś w pirancy
+
+[[00:52:09]]
+no ja pisałem do trzech osób
+
+[[00:52:12]]
+taka jedna osoba
+
+[[00:52:14]]
+skąd pracuje, to jest doktora Skosa
+
+[[00:52:15]]
+on jest odnośnie chemii obliczeniowej
+
+[[00:52:19]]
+ale
+
+[[00:52:19]]
+on jest trochę
+
+[[00:52:21]]
+za dużo pracy ma i też uważam, że
+
+[[00:52:23]]
+jest raczej chemikiem obliczeniowym
+
+[[00:52:25]]
+a nie osobą, która może
+
+[[00:52:27]]
+dyrygować
+
+[[00:52:29]]
+odnośnie
+
+[[00:52:30]]
+drag-designu
+
+[[00:52:32]]
+więc ma inne zalety
+
+[[00:52:34]]
+no i pomyślałem o
+
+[[00:52:36]]
+profesorze Czaku
+
+[[00:52:38]]
+doktorze Żoku i
+
+[[00:52:40]]
+doktorze Ławniczaku, napisałem do nich wszystkich
+
+[[00:52:42]]
+jednocześnie maila
+
+[[00:52:43]]
+wszyscy się zgodzili, tylko że to tak wyszło
+
+[[00:52:46]]
+że później nie miałem jeszcze
+
+[[00:52:48]]
+tej sekcji
+
+[[00:52:49]]
+z dżerem
+
+[[00:52:50]]
+nie mieliśmy jeszcze co pokazać i trochę wstyd było
+
+[[00:52:54]]
+mieć tych trzech prowadzących
+
+[[00:52:56]]
+i oficjalnie wyszło tak, że nie odpisałem
+
+[[00:52:59]]
+i trochę mi głupio za to
+
+[[00:53:00]]
+już rozmawiałem z profesorem
+
+[[00:53:02]]
+Czakiem, ale
+
+[[00:53:04]]
+obecnie nikt nas nie wspiera tak z kwestii
+
+[[00:53:06]]
+merytorycznej, no ale można to zmienić
+
+[[00:53:08]]
+jeżeli uważamy, że ktoś mógłby
+
+[[00:53:10]]
+pomóc, no ale
+
+[[00:53:12]]
+największą taką
+
+[[00:53:14]]
+wizję widzę do
+
+[[00:53:17]]
+doktorze Ławniczaku, bo
+
+[[00:53:19]]
+wydawał się taki najbardziej
+
+[[00:53:20]]
+pobudzający do pracy i
+
+[[00:53:23]]
+znający na tej chemii
+
+[[00:53:25]]
+a że pracujemy ze związkami małocząstkowymi
+
+[[00:53:27]]
+i to może miałby najwięcej do
+
+[[00:53:29]]
+mówienia teraz, jeżeli byśmy
+
+[[00:53:35]]
+jeżeli byśmy pracowali
+
+[[00:53:36]]
+na, tak, po angielsku
+
+[[00:53:38]]
+nie nazywa modality, czyli na
+
+[[00:53:41]]
+jakby podzbierze
+
+[[00:53:45]]
+rzeczy, które mogą
+
+[[00:53:49]]
+dotykać tych leków
+
+[[00:53:50]]
+a tutaj mam taki post na Twitterze, który
+
+[[00:53:54]]
+fajnie przedstawia te modalities
+
+[[00:53:55]]
+no to, nie wiem,
+
+[[00:53:59]]
+że można projektować antygeny, jakieś
+
+[[00:54:01]]
+nie wiem, bizpecificzne proteiny
+
+[[00:54:04]]
+jakieś
+
+[[00:54:05]]
+nie wiem, kar,
+
+[[00:54:08]]
+jakieś fab, to pewnie Natana, te kary będą
+
+[[00:54:10]]
+jakieś peptydy chińskie,
+
+[[00:54:12]]
+które są teraz
+
+[[00:54:13]]
+śmiesznym memem
+
+[[00:54:16]]
+no ale
+
+[[00:54:18]]
+no przydałby się doktor Ławniczak,
+
+[[00:54:22]]
+ale
+
+[[00:54:23]]
+chcielibyśmy na początek na przykład mieć
+
+[[00:54:24]]
+zrobione te pierwsze punkty planu
+
+[[00:54:26]]
+z workflow aquapryny,
+
+[[00:54:29]]
+bo wtedy już byśmy na przykład użyli
+
+[[00:54:30]]
+tego Reinventa
+
+[[00:54:34]]
+Reinventa 4, żeby dostać
+
+[[00:54:35]]
+związki, żeby
+
+[[00:54:38]]
+zrobić AI AdMet
+
+[[00:54:42]]
+mieć bazę danych
+
+[[00:54:44]]
+no i w tej bazy danych top
+
+[[00:54:47]]
+top 10
+
+[[00:54:50]]
+top 1 spazamy
+
+[[00:54:52]]
+na przykład za pomocą Paemola
+
+[[00:54:54]]
+albo innych rzeczy
+
+[[00:54:55]]
+i Gromaxa
+
+[[00:54:58]]
+i dokujemy, a później jest pytania
+
+[[00:55:01]]
+czy X nie jest
+
+[[00:55:04]]
+jednak
+
+[[00:55:06]]
+trujący
+
+[[00:55:07]]
+ze względu na jakąś
+
+[[00:55:09]]
+grupę funkcyjną
+
+[[00:55:11]]
+no i tutaj
+
+[[00:55:13]]
+myślę, że
+
+[[00:55:15]]
+Ławniczak, który zna się na nie wiem
+
+[[00:55:17]]
+jakieś degradacji związków organicznych
+
+[[00:55:20]]
+czy
+
+[[00:55:22]]
+oczyszczają środowiska, to może wiedzieć
+
+[[00:55:23]]
+jakie rzeczy są trujące
+
+[[00:55:25]]
+i powiedzieć tam
+
+[[00:55:27]]
+no i dobra, ostatnia rzecz, żeby nie przedłużać
+
+[[00:55:30]]
+bo tak chciałem zająć godzina
+
+[[00:55:33]]
+no to co udostępniamy
+
+[[00:55:35]]
+jeżeli będziecie chcieli
+
+[[00:55:36]]
+pracować i dołączyć
+
+[[00:55:38]]
+to mamy github
+
+[[00:55:40]]
+na którym pracujemy
+
+[[00:55:42]]
+jako
+
+[[00:55:47]]
+jako komputerowe
+
+[[00:55:49]]
+projektowanie leków
+
+[[00:55:50]]
+mamy tutaj swoje repozytoria
+
+[[00:55:52]]
+i tutaj wstawiamy
+
+[[00:55:55]]
+rzeczy odnośnie
+
+[[00:55:56]]
+jakieś tam pracy, tutaj jest Polaris Hub
+
+[[00:56:02]]
+alzheimer strukturalny
+
+[[00:56:04]]
+alzheimer docking
+
+[[00:56:06]]
+pennarlo, czyli ta biblioteka
+
+[[00:56:07]]
+jest symulator
+
+[[00:56:09]]
+molekularny, że
+
+[[00:56:11]]
+silnik, który budowałem, który można dalej budować
+
+[[00:56:14]]
+jest
+
+[[00:56:17]]
+github
+
+[[00:56:18]]
+na którym jest
+
+[[00:56:19]]
+projekt
+
+[[00:56:20]]
+i też
+
+[[00:56:24]]
+był taki plan, żeby tutaj zamiast slaka
+
+[[00:56:27]]
+na przykład takie coś sobie organizować
+
+[[00:56:29]]
+i patrzeć
+
+[[00:56:30]]
+i jak idą
+
+[[00:56:33]]
+idą zadania
+
+[[00:56:34]]
+ale to jeszcze jest do omówienia
+
+[[00:56:36]]
+jeżeli ktoś będzie chciał więcej wiedzieć
+
+[[00:56:38]]
+jest disk
+
+[[00:56:40]]
+jest z googla, który tak samo jest tutaj
+
+[[00:56:42]]
+w informacji jak sobie wejdziecie
+
+[[00:56:44]]
+albo poprosicie o dostęp
+
+[[00:56:46]]
+to wchodzicie sobie na drive
+
+[[00:56:48]]
+i tutaj macie jakieś dokumenty
+
+[[00:56:52]]
+ciekawe rzeczy
+
+[[00:56:53]]
+jest ten discord
+
+[[00:56:53]]
+jest notion
+
+[[00:56:57]]
+jest notion na którym staramy się robić notatki
+
+[[00:57:00]]
+i osoby
+
+[[00:57:02]]
+które tutaj nie są
+
+[[00:57:05]]
+nie jednie
+
+[[00:57:06]]
+będą widzieć, ale
+
+[[00:57:09]]
+tutaj po prawie stronie widać
+
+[[00:57:11]]
+jak wyglądała praca
+
+[[00:57:12]]
+w sekcji, gdzie tutaj
+
+[[00:57:15]]
+było bardzo dużo rzeczy
+
+[[00:57:17]]
+do czerwca
+
+[[00:57:18]]
+i później trochę to przestało
+
+[[00:57:19]]
+trochę pracy w lipcu
+
+[[00:57:22]]
+później znowu taka przerwa, że
+
+[[00:57:24]]
+nawet ja nie pracowałem sierpnia września
+
+[[00:57:27]]
+bo robiłem
+
+[[00:57:29]]
+tego Pymarlo
+
+[[00:57:30]]
+i tutaj zaczynamy
+
+[[00:57:32]]
+takie nowe rzeczy
+
+[[00:57:35]]
+i możecie zobaczyć
+
+[[00:57:38]]
+to analitykę jak to się zmieniało
+
+[[00:57:39]]
+tutaj są notatki, jakaś tam wiedza
+
+[[00:57:42]]
+i to miało
+
+[[00:57:43]]
+być takie
+
+[[00:57:46]]
+jak się nazywa
+
+[[00:57:47]]
+kompendium
+
+[[00:57:49]]
+jakieś takie informacje, których to mamy
+
+[[00:57:51]]
+plany, cały wypisany tak jak na stronie
+
+[[00:57:53]]
+tylko jeszcze z rozszerzeniami
+
+[[00:57:56]]
+jakie są hipotezy
+
+[[00:57:57]]
+wszystko akwaporynie, jakieś programy
+
+[[00:58:00]]
+metody, ale storyczne
+
+[[00:58:02]]
+taki hub do
+
+[[00:58:05]]
+notatek
+
+[[00:58:06]]
+tak następną rzecz
+
+[[00:58:09]]
+to jest jeszcze tu nie zapisałem
+
+[[00:58:11]]
+ale
+
+[[00:58:14]]
+zotero
+
+[[00:58:15]]
+jest takie coś jak zotero do udostępnienia
+
+[[00:58:19]]
+sobie w grupie
+
+[[00:58:20]]
+i
+
+[[00:58:24]]
+kurcze
+
+[[00:58:26]]
+skuczyło mi, dobrze
+
+[[00:58:30]]
+udostępniania
+
+[[00:58:31]]
+i przetrzymywania artykułów
+
+[[00:58:33]]
+jeszcze pewnie
+
+[[00:58:35]]
+nie mieliście z tym zresztą
+
+[[00:58:36]]
+ale trzeba robić bibliografię na
+
+[[00:58:39]]
+inżynierkę, magisterkę
+
+[[00:58:41]]
+czy robienie własnego artykułu
+
+[[00:58:44]]
+i jak tutaj mamy sekcję
+
+[[00:58:45]]
+komputerowego projektowania z leku w z lewej
+
+[[00:58:47]]
+to są na przykład badania akwaporyny
+
+[[00:58:50]]
+są jakieś tam artykuły
+
+[[00:58:51]]
+które możemy sobie adnotować
+
+[[00:58:53]]
+na
+
+[[00:58:56]]
+konkretne, fajne rzeczy
+
+[[00:58:58]]
+i wymieniać
+
+[[00:58:59]]
+się nad notatkami
+
+[[00:59:03]]
+mamy
+
+[[00:59:03]]
+jakieś tam moje materiały
+
+[[00:59:05]]
+gdzie ja sobie trochę tego zapisałem
+
+[[00:59:08]]
+znaczone nie są moje
+
+[[00:59:09]]
+tylko są rzeczy, które ja wstawiłem
+
+[[00:59:11]]
+żeby pamiętać, żeby się nie pomieszało
+
+[[00:59:14]]
+no i to
+
+[[00:59:16]]
+jeżeli się dołączy do tego, to te rzeczy
+
+[[00:59:18]]
+się widzi
+
+[[00:59:19]]
+teraz jest problem, bo
+
+[[00:59:22]]
+nie, nie wiedziałem, że to
+
+[[00:59:26]]
+zotero
+
+[[00:59:26]]
+ma tak mało miejsca, ale już za chwilę nie będzie można
+
+[[00:59:28]]
+wrzucać, bo się ograniczyło
+
+[[00:59:30]]
+miejsce, ale to wtedy wrzuci się na dysk
+
+[[00:59:33]]
+i
+
+[[00:59:35]]
+najważniejsze zostawi ta matę
+
+[[00:59:36]]
+po Boszczy na przykład wrzuci na dysk i będzie się tak
+
+[[00:59:38]]
+robić management z tym
+
+[[00:59:40]]
+są
+
+[[00:59:44]]
+miejsca do
+
+[[00:59:47]]
+agregowania artykułów
+
+[[00:59:49]]
+wydaje mi się, że wszystko zrobiłem
+
+[[00:59:51]]
+tak 5 minut
+
+[[00:59:53]]
+za dużo zabrałem, ale też
+
+[[00:59:55]]
+5 minut czekaliśmy, więc
+
+[[00:59:57]]
+to powinno być taka dawka rzeczy,
+
+[[00:59:59]]
+które na sam początek
+
+[[01:00:02]]
+powinny wskazać, a jak to może wygląda,
+
+[[01:00:05]]
+że wygląda praca, możecie sobie porównać
+
+[[01:00:06]]
+z tymi sekcjami
+
+[[01:00:09]]
+no ja i tutaj
+
+[[01:00:10]]
+obecnieśmy, jesteśmy na 3 roku
+
+[[01:00:12]]
+na 5
+
+[[01:00:14]]
+semestrze, więc jeszcze tutaj trochę będziemy
+
+[[01:00:17]]
+ja mogę powiedzieć, że jeszcze
+
+[[01:00:18]]
+będę pracował tutaj rok
+
+[[01:00:21]]
+bo do tak, do 3
+
+[[01:00:22]]
+do 7 semestru
+
+[[01:00:25]]
+więc
+
+[[01:00:26]]
+no jeszcze nie wiem, co jest magisterką, ale cały czas
+
+[[01:00:28]]
+będę się co angażował, więc i jest taka
+
+[[01:00:30]]
+perspektywa, żeby
+
+[[01:00:33]]
+przez
+
+[[01:00:34]]
+no tak rok czy półtora pracować
+
+[[01:00:37]]
+jeszcze nad tymi wszystkimi fajnymi rzeczami
+
+[[01:00:39]]
+i angażować jakieś konkursy,
+
+[[01:00:40]]
+uczenie maszynowe, projektowanie
+
+[[01:00:43]]
+leków, czy może przejście z leków
+
+[[01:00:44]]
+maocząsteczkowych na te rzeczy
+
+[[01:00:47]]
+o których wspominałem
+
+[[01:00:49]]
+wcześniej, dobrze to
+
+[[01:00:52]]
+pokazałem wam te wszystkie rzeczy
+
+[[01:00:54]]
+jeszcze zobaczyć
+
+[[01:00:56]]
+czegoś nie pominąłem
+
+[[01:01:00]]
+no, strona
+
+[[01:01:02]]
+strona, strona, zrobiłem
+
+[[01:01:04]]
+tutaj te wszystkie aktywnie
+
+[[01:01:06]]
+szukamy ludzi, że defopców
+
+[[01:01:07]]
+defopców biologów molecularnych, hymików
+
+[[01:01:09]]
+nieorganicznych, software
+
+[[01:01:12]]
+engineering
+
+[[01:01:14]]
+matematyków, fizyków, styków
+
+[[01:01:16]]
+no to tak wypisałem wszywno, ale no
+
+[[01:01:18]]
+no wiecie, każdy ma swoje plusy
+
+[[01:01:20]]
+każdy ma swoje minusy, schłopby
+
+[[01:01:22]]
+strony, mocne strony, więc
+
+[[01:01:24]]
+nie ma tak, że są potrzebnieni
+
+[[01:01:26]]
+ludzie i raczej
+
+[[01:01:29]]
+to jest praca
+
+[[01:01:30]]
+dla ogromnej
+
+[[01:01:32]]
+ilości dobrze
+
+[[01:01:34]]
+do informowanych ludzi, no bo
+
+[[01:01:37]]
+raczej jak, nie wiem, ktoś robi firmę
+
+[[01:01:39]]
+odnośnie
+
+[[01:01:41]]
+struktura bio
+
+[[01:01:43]]
+i AI to już raczej są
+
+[[01:01:45]]
+jakieś doktoranci
+
+[[01:01:46]]
+i trzeba trochę przejść, żeby wiedzieć
+
+[[01:01:48]]
+odnośnie tych metod, ale no
+
+[[01:01:51]]
+to nie jest tak jak, nie wiem, Magsza
+
+[[01:01:53]]
+Kerberk robił sobie swojego Facebooka
+
+[[01:01:55]]
+jak miał tam, nie wiem, 18 lat
+
+[[01:01:56]]
+w akademiku
+
+[[01:02:01]]
+dobrze, to
+
+[[01:02:02]]
+pokazałem jeszcze, pokazałem te firmy
+
+[[01:02:04]]
+z przykładowymi, tymi listingami
+
+[[01:02:08]]
+o te prace
+
+[[01:02:14]]
+pokazałem tego na Uświona
+
+[[01:02:15]]
+Reinventa
+
+[[01:02:17]]
+OpenADMI
+
+[[01:02:19]]
+pokazałem tego bloga, to tej osoby
+
+[[01:02:22]]
+no dobra
+
+[[01:02:24]]
+to
+
+[[01:02:25]]
+to spotkanie będzie też w takiej formie, że będziecie
+
+[[01:02:27]]
+jak widzieć transkrypt, jeszcze nie wiem
+
+[[01:02:29]]
+jak to zrobi, ale żeby osoby
+
+[[01:02:31]]
+i na YouTubie będzie
+
+[[01:02:32]]
+tak jak tutaj, że
+
+[[01:02:34]]
+widę o link i będzie sobie można posłuchać
+
+[[01:02:40]]
+a na reszcie odpowiem
+
+[[01:02:41]]
+nie wiem, albo porozmawiamy
+
+[[01:02:43]]
+później, albo
+
+[[01:02:45]]
+będzie może napisać
+
+[[01:02:47]]
+jak będziecie chcieli dalej to robić
+
+[[01:02:50]]
+to, Macie jeszcze
+
+[[01:02:52]]
+jakieś pytania, czy
+
+[[01:02:55]]
+chcielibyście coś wiedzieć zanim
+
+[[01:02:56]]
+skończę nagrywać
+
+[[01:02:57]]
+i zakończam to spotkanie, czy
+
+[[01:03:12]]
+dobra, to zakładam, że to
+
+[[01:03:14]]
+jest duża informacja, jak na razie
+
+[[01:03:18]]
+i będziecie się
+
+[[01:03:20]]
+zastanawiać
+
+[[01:03:21]]
+no, chcę teraz
+
+[[01:03:22]]
+w tym semestrzeń, może w tym roku
+
+[[01:03:25]]
+dużo zahaczyć do to uczenia masinowe, bo
+
+[[01:03:29]]
+w sumie mu też trochę się
+
+[[01:03:31]]
+przykładam do tego osobiście
+
+[[01:03:33]]
+i no wydaje mi się, że badania
+
+[[01:03:34]]
+np. tych transformerów
+
+[[01:03:38]]
+do
+
+[[01:03:38]]
+do produkcji, to
+
+[[01:03:41]]
+to może być coś fajnego
+
+[[01:03:42]]
+i możemy sobie
+
+[[01:03:44]]
+takie coś przeczytać
+
+[[01:03:46]]
+razem, nauczyć się
+
+[[01:03:48]]
+zrobić notatki
+
+[[01:03:49]]
+i nawet użyć takiego narzędzia
+
+[[01:03:52]]
+które zrobimy własnoręcznie na naszym
+
+[[01:03:54]]
+problemie badawcze
+
+[[01:03:57]]
+więc
+
+[[01:04:00]]
+a jeszcze tylko dodam, że
+
+[[01:04:03]]
+raczej tutaj w sekcji chcielibyśmy
+
+[[01:04:05]]
+starać się
+
+[[01:04:08]]
+badać
+
+[[01:04:09]]
+obszary, które są związane z mózgiem
+
+[[01:04:11]]
+i
+
+[[01:04:16]]
+szukać sobie
+
+[[01:04:17]]
+jakichś targetów
+
+[[01:04:18]]
+w obrębie
+
+[[01:04:22]]
+po prostu
+
+[[01:04:23]]
+mózgu, że
+
+[[01:04:24]]
+jeżeli ta kwaporyna nie wyjdzie, bo jest zbyt stabilna
+
+[[01:04:27]]
+i allostericznie naprawdę
+
+[[01:04:29]]
+nie da się nic działać, to
+
+[[01:04:30]]
+jest jeszcze wiele rzeczy i
+
+[[01:04:34]]
+np.
+
+[[01:04:35]]
+nie interesują na tropiki, czyli leki
+
+[[01:04:38]]
+albo związki, które wspomagają
+
+[[01:04:40]]
+jakoś mózgi
+
+[[01:04:42]]
+tak jak ten magiczny Adelal
+
+[[01:04:44]]
+poprawiają
+
+[[01:04:46]]
+umiejętności kognitywistyczne
+
+[[01:04:48]]
+więc możemy sobie też badać takie
+
+[[01:04:50]]
+rzeczy czy jakieś inne
+
+[[01:04:51]]
+ale raczej
+
+[[01:04:54]]
+rzeczy związane z mózgiem, bo jak już zaczynamy
+
+[[01:04:56]]
+się uczyć o tych wszystkich rzeczach
+
+[[01:04:58]]
+to mózg jest taki specyficzny
+
+[[01:05:00]]
+że trzeba przekrosić tą barierę krew mózg
+
+[[01:05:02]]
+i tam działać
+
+[[01:05:03]]
+ale lepiej
+
+[[01:05:08]]
+specjalizować, że
+
+[[01:05:11]]
+no też też przykład
+
+[[01:05:12]]
+przykładam, że
+
+[[01:05:13]]
+jest taka firma jak
+
+[[01:05:15]]
+Raivio
+
+[[01:05:17]]
+Raivio Therapeutics
+
+[[01:05:19]]
+ona też jest z Polski
+
+[[01:05:23]]
+wydaje mi się, że
+
+[[01:05:24]]
+takim
+
+[[01:05:28]]
+silikonwali w Polsce
+
+[[01:05:29]]
+odnośnie drug design
+
+[[01:05:30]]
+z Kraków i no, najwięcej osób
+
+[[01:05:32]]
+z UYOTU jest tam
+
+[[01:05:34]]
+i są najfajniejsze firmy
+
+[[01:05:37]]
+ale raczej takie firmy, które się tym
+
+[[01:05:39]]
+zajmowałem jak
+
+[[01:05:40]]
+Review Therapeutics
+
+[[01:05:41]]
+no to jest odnośnie o onchologii
+
+[[01:05:43]]
+czyli oni się zajmują na przykład Rakiem
+
+[[01:05:45]]
+a
+
+[[01:05:47]]
+takie
+
+[[01:05:49]]
+Molecure One
+
+[[01:05:54]]
+molecure zajmuje się
+
+[[01:05:57]]
+Sarkoid do Ząbucnow
+
+[[01:05:58]]
+czyli obszarem
+
+[[01:06:00]]
+mało częsteczkowe leki
+
+[[01:06:03]]
+do
+
+[[01:06:04]]
+jakiś tam chyba też nowotwór w puć
+
+[[01:06:06]]
+czy czy jest ta Sarkoid
+
+[[01:06:08]]
+za tak medycznie
+
+[[01:06:10]]
+więc to nie jest tak, że trzeba
+
+[[01:06:12]]
+że wszyscy znają się na wszystkim
+
+[[01:06:14]]
+tylko raczej firmy się specjalizują
+
+[[01:06:15]]
+i też chyba powinniśmy
+
+[[01:06:18]]
+mieć taki przykład, żeby uczyć
+
+[[01:06:19]]
+odnośnie konkretnego miejsca
+
+[[01:06:21]]
+i jakie związki tam działają
+
+[[01:06:25]]
+dobra, to nie przedłużem
+
+[[01:06:30]]
+to wyłączam nagrywanie teraz
+

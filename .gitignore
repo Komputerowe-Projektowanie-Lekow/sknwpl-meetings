@@ -47,11 +47,8 @@ client_secrets.json
 *.avi
 *.mov
 
-# Wyjście transkrypcji (opcjonalnie commituj .md)
-*_transcript.json
-*_transcript.txt
-*_plain.txt
-prompt_*.txt
+# Wyjście transkrypcji - COMMITUJEMY żeby inni widzieli
+# (tylko mp4/mkv są za duże)
 
 # System
 .DS_Store
