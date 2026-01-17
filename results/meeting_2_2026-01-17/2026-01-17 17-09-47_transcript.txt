@@ -1,0 +1,225 @@
+[[00:00:00]]
+to zacząłem nagrywanie. Jeżeli będziemy w trójkę, bo akurat teraz tak jest, nie ma Maxa i Tymofiego, to po prostu później odpiszę albo na spotkaniu z profesorem Kujawskim się to okaże. Ale tak jak dzisiaj zapisałem, to jako ten pierwszy punkt, to mielibyśmy tak przedyskutować. Szkoda, że Szymon nie ma mikrofonu teraz, ale jak wygląda pogląd odnośnie tego planu z koloniami bakterii?
+
+[[00:00:30]]
+Ty, Florian, nie robiłeś z nami wcześniej tych akwaporyn, ale to się tak zmieniło, że... Właśnie słyszałem, że praktycznie wszystko jakby tam odchodzicie od tego. Tak, trzeba to wszystko zeskrapować, bo nie dało się tego kompletnie sprawdzić w labie. I jak poszliśmy o pomoc do pana twardowy, to wyszło, że możemy robić to obliczenie, że możemy robić dalej, no ale jednak trzeba się mierzyć z tym, że fajnie by było, żeby coś z tego wyszło, a nie żeby robić to tak hobbystycznie.
+
+[[00:01:00]]
+i wyszedł ten plan bakterii, tylko musimy się zastanowić, czy lepszą szansą jest robienie tego z WTH-em, bo nie wspominałem, ale pan Twardawa wysłał wiadomość, że musimy się wczytać, że jest takie coś jak jakiś konkurs.
+
+[[00:01:30]]
+konkurs iGEM, który już studenci z koła bioinformatyki robili ostatnio, 13 lat temu i tam wystartowali i wygrali jakiś tam pierwszy etap, że lecieli później do USA i że moglibyśmy się zająć tym samym i robić to pod działaniem konkursu. Tylko, że wydaje mi się, że to jest taka opcja, która mogłaby być później. Jakby coś udało nam się zrobić nie w ramach konkursu.
+
+[[00:01:59]]
+I też napisałem, że co pan Twardawa myśli i napisał, że super, że to są fajne wieści, że będzie trzeba jeszcze porozmawiać, ale że ta współpraca z profesorem Kujawskim, jakby się udała, to by było zdecydowanie na plus. I też napisał wyraźnie, że proszę się zastanowić, czy nie lepiej robić jakieś mokre laby u nas, u nas na WTU. Więc to jest do zastanowienia się i nie wiem, jakie są plusy, jakie minusy.
+
+[[00:02:30]]
+Bo jedyne, co pan Twardawa wymieniał, to że jakbyśmy chcieli się prosić o jakiś grant, żeby zafundować tyle rzeczy, a ten profesor Kujawski mówił, że badania nie są jakieś tanie, bo to, że mamy teraz obliczenia, to jest fajnie i nie widzimy tego kosztu, ale jakbyśmy chcieli robić coś w jakimś labie, to sięga, nie wiem, dziesiątek tysięcy, no trochę to jest taka straszna liczba.
+
+[[00:02:55]]
+ale mówił, że te wszystkie pipety, jakieś dziwne takie rzeczy, które są wymienne z biologii, to one są bardzo drogie i trzeba je kupić. Więc jednym problemem jest właśnie z tym fundowaniem tego. Więc pewnie nie mamy jakiegoś dużego oglądu, jak jesteśmy tutaj, bez osób, które mają z tym doświadczenie, jak ten profesor Kujawski czy pan Twardowa, ale trzeba wiedzieć o tym.
+
+[[00:03:24]]
+I sam pan Twardawa mówił, że jeszcze nie wie, jaka opcja jest lepsza, żeby doradzić, ale że w najbliższym czasie się wszystko wyklaruje i będziemy mogli iść do przodu. Taka dosłownie jest wiadomość. Więc rozmawiałem z Florianem jeszcze przed zaczęciem nagrywania tego, że może warto by było spróbować z WTH-em, ale jakie by były plusy tego? Oprócz tego, że to jest na miejscu i też znamy...
+
+[[00:03:57]]
+tam profesorów i tak dalej, więc mogłoby się z nimi jak dogadać. Ja myślę, jestem przekonany, że, sorry, że przerwałem, jestem przekonany, że to by robiło jakieś koło studenckie, że musieli raczej byśmy zapytać się, czy są jakieś koła z biotechnologii i co oni robią i że oni mają dostęp do labu. Nie wiem, czy nawet Max o tym nie wspominał czy coś. Z biotechnologii jest koło. Tak, jest koło.
+
+[[00:04:24]]
+I oni też chyba tam w Skylabie robią, ale też na Butechu. No to wydaje mi się, że raczej to by było związane z tym, że raczej studenci studentami robią. Mam taką fantazję i wyobrażenie, że jakbyśmy robili z tym UMP, to profesor Kujawski by zaangażował jakieś tam osoby od siebie, które naprawdę są na tym Wydziale Mikrobiologii. Ale to wszystko jest do obgadania.
+
+[[00:04:55]]
+No, ten argument, że znamy tych ludzi tutaj, no może mieć to znaczenie, ale to raczej studentów. Nie, nie wiem. Co uważacie? Faruz, weźmie? Okej. Dobra, no to nie będziemy się jakby nad tym rozwijać, no bo trzeba czekać na więcej informacji. No bo to spotkanie jest dobre. Właśnie myślę, że to spotkanie z profesorem...
+
+[[00:05:29]]
+Tak, tylko raczej teraz miało być takie coś, że już teraz mamy mieć jakąś taką opinię, że jak on zapyta co wolimy, bo no ten drugi punkt, czy wolimy robić całkowity pipeline z mokrym labem, czy raczej skupić się na obliczeniu owca jako pierwszą łatwiejszą rzecz, bo dał no dwie możliwości z jego strony, że robimy całkowity taki pipeline, że
+
+[[00:05:59]]
+Robimy to z Mokrym Labem i robimy research literatury, sprawdzamy jakieś związki, szukamy ten proces. Jak mamy ten proces, mamy związki, to możemy szukać analogów do tych związków i zobaczyć, czy potrafimy zamodelować to wszystko, co jest z literatury i zobaczyć, czy ten analog nie jest jakiś lepszy. Więc to nie by było jakieś takie bardzo odkrywcze czy wymyślne.
+
+[[00:06:24]]
+Raczej to takie badanie, które by pokazało nam, jak robić te rzeczy i z czym to się wiąże, jakie są pułapki itp. itd. Bo tak jak ja tutaj spamowałem tymi postami o tym PulseX, to żeby oni zaliczyli, że w tym benchmarku, że jakiś system z tej dynamiki molekularnej jest dobry, to musi spełniać bardzo dużo wymagań. I jak rozmawiałem z tym profesorem Kujawskim, to są też notatki na...
+
+[[00:06:53]]
+na tym dysku naszym. Nie Google, a tylko po prostu na dysku na GitHubie, że możecie sobie spulować repo i tam są te wszystkie notatki w formie markdownu. To rozmawialiśmy o jakichś takich mega chemiczno-medycznych rzeczach, że na co trzeba zwracać uwagę ze związkiem, że metabolizm naprawdę ma znaczenie i nie każdy lek jest od razu tym końcowym efektem po metabolizmie.
+
+[[00:07:24]]
+który się wprowadza do organizmu. Jakieś takie rzeczy, więc skupiał uwagę na jakichś takich małych szczegółach, że mogą rozwalić kompletnie pracę i że ktoś raczej z takiej chemii medycznej musiałby mieć na to oko, żeby zobaczyć, czy to w ogóle ma sens, bo nie da się tego jakoś zautomatyzować idealnie. Więc gdy na przykład będzie to spotkanie w następnym tygodniu z panem Twardową i z profesorem Kujawskim z UMP,
+
+[[00:07:54]]
+to musielibyśmy już tak po prostu odpowiedzieć, czy chcemy robić obliczeniówkę, żeby zostawić to z labów, bo to może być dosyć ciężkie. I jeżeli chodzi o obliczeniówkę, to znaczy, że na przykład mamy jakąś metodę z artykułów i sprawdzamy, czy możemy coś zmodyfikować, żeby to było lepsze. Na przykład użyć takiego Boltza 2, który wyszedł, załóżmy tam dwa miesiące temu, jest dosyć nową technologią.
+
+[[00:08:21]]
+do jakiejś już obeznanej metody i zobaczyć, czy to po prostu nie ulepszy tego. I to jest taki łatwiejszy owoc do zerwania, no bo nie ma całego tego aspektu robienia tych rzeczy w mokrym labie. I to byśmy robili tylko z profesorem Kujawskim i z panią Twardową, bez jakiegoś zespołu z mokrego labu. Więc robilibyśmy to w małej grupie. A jeżeli chcielibyśmy już robić te rzeczy...
+
+[[00:08:50]]
+z większą ilością osób z tej mikrobiologii czy z tym mokrym labem, to musimy zaangażować już więcej osób i to jest bardziej ryzykowne. Więc zakładam, że już macie jakąś opinię i to jest pytanie, czy chcemy bardziej ryzykować i prosić się o jakąś rzecz, która może nie wypalić, bo będzie za dużo zmiennych i trudności, a robić coś, co może być łatwiejsze i możemy zdążyć w ciągu załóżmy pół roku.
+
+[[00:09:29]]
+Wolałbyś tak robić? Tak jak mówiłeś, dużo tych zmiennych i to jest dość ryzykowne. Tylko pytanie jest...
+
+[[00:09:45]]
+Jakbyśmy przystali przy tych samych obliczeniach, to jakbyśmy połączyli to z tym procesem biologicznym do sprawdzenia potem w tym labie? Ten proces biologiczny to jest raczej praktycznie tylko tego labu. Że jakbyśmy robili jakąś tą pracę odnośnie obliczeń i sprawdzania metod, no to raczej to już by była cała praca na takim klastrze i robienie jakichś skryptów i pisania w Pythonie, aniżeli...
+
+[[00:10:14]]
+jakimś takim głębszym procesem, który musimy określić. Więc ja bym był skłonny, żeby robić to z tym mokrym labem, bo to wydaje się takie inspirujące, co nie? I jak teraz mamy taką szansę, to no... No nie wiem, ja też niedługo będę pisał inżynierkę z Szymonem, wy dopiero zaczynacie, ale...
+
+[[00:10:39]]
+Jeżeli byśmy robili ten projekt z tymi bakteriami, to może nawet bym inżynierkę z tego robił i to by była moja dosłownie praca dzienna, żeby to naprawdę wyszło. W takim razie na to lepiej z tym mokrym labem wtedy zrobić. No tak, tylko że to jest bardziej ryzykowne, co nie? I teraz ja liczę też na Was, bo ja takiej wiedzy biologiczno-chemicznej nie mam. I czy w ogóle Wam by się chciało na przykład współpracować może z jakimiś osobami z UMP czy z biotechnologii, żeby
+
+[[00:11:10]]
+szukać tych rzeczy, bo są pewnie jakieś ogromne bazy danych, rozmawiałem ostatnio z Natanem, że są jakieś bazy danych, w których wrzucasz białko i ci pokazuje całe wszystkie szlaki tego białka, jakie są w jakichś tam komórkach, ale no duża praca będzie właśnie się opierać na tym, że wchodzicie na początek, robicie takie oglądowe, jakie procesy zachodzą załóżmy w hamowaniu wzrostu ekoli w jakichś koloniach.
+
+[[00:11:40]]
+I później sprawdzali to i tak konsekwentnie robili krok po kroku, aż byście znaleźli coś ciekawego, co można robić. I znaleźlibyście taki słaby punkt, który jest poznany, ale można w nim grzebać. Więc to dużo zależy od Was, bo jak będzie sama obliczeniówka, no to wszyscy mamy, to znaczy ja i z tego co kojarzę Szymon, mamy większe szanse.
+
+[[00:12:07]]
+albo robimy jakieś duże rzeczy z programowaniem czy czymś ale no wiecie jak ma być to z tym procesem biologicznym to trzeba w końcu poszukać ten proces biologiczny albo jest też opcja o której mówił profesor Kujawski że oni mają jakieś rzeczy, które zostały że
+
+[[00:12:32]]
+Oni robią jakieś tam badania swoje i potrzebują osób, które będą robić obliczenia od nas i oni mogliby nam dać jakiś związek czy jakiś proces, ale no tak sugerowo, że lepiej jakbyśmy my to zrobili, bo oni mają takie tematy, które są pewnie naprawdę niszowe, że jakiś doktorant coś robi albo profesor na boku i chciałby to robić dalej, a nie ma kogo do tego wepchnąć, a jak my byśmy poszukali, to mamy pełną wolność taką kreatywną, co chcemy robić.
+
+[[00:13:09]]
+Więc to już jest raczej pytanie do Was, Florian i Max, czy to Was interesuje, bo pamiętam, że Max lubił rzeczy związane z mózgiem, a tam mózgu nie ma ani koleknomiki. To czy jakoś nie wypali Ciebie? To jest ecoli, czyli organizm modelowy. Z mózgiem generalnie ciężko tak zrobić coś na tym poziomie, na którym jesteśmy, co teraz też za bardzo nie jest jakoś rozwinięte.
+
+[[00:13:41]]
+Dużo narzędzi też do tego nie ma. Proste i to też w sumie nie jest powiązane z naszym kierunkiem na bazę. A bakterie są już bardziej powiązane, więc też jest trochę większa wiedza. Szczególnie, że to jest modelowy. Większy masz po prostu dostęp do literatury i ogólnie do tego, co się udało już kiedyś. I co może być. O tyle, że to jest organizm modelowy, że on też nie jest jakoś...
+
+[[00:14:10]]
+Myślę już tak bardziej pod względem finansów, że ponieważ to jest modelowy organizm, to nie będzie też wymagał od nas jakichś wielkich grantów większych niż usztamy, że i tak są ogromne. No plus właśnie tak jak Max mówił, jest to dobrze już poznany organizm całkiem. No tak, tylko że to jest mikrobiologia, że to już jest dziedzina, w której ludzie robią doktoraty i profesury, a my tak będziemy grzebać w tym.
+
+[[00:14:43]]
+I czy to by było dla was ciekawe, co nie, że możemy trochę tak kontrolować te bakterie? No właśnie, no ja jestem jak najbardziej za tym mokrym labem, jeżeli chodzi tak personalnie. Myślę, że fajnie byłoby sobie pogrzebać, szczególnie, że jakbyśmy robili obliczeniowo, to musiałbym bardzo tryhardować, tak widzowo, bo nie jestem zbyt dobrze w Pythonie, więc...
+
+[[00:15:13]]
+Znaczy generalnie w programowaniu, więc mi jak najbardziej odpowiada ten mokry lab. No dobra, to po prostu założymy, że chcemy my znaleźć jakiś pomysł i robić z tym mokrym labem i trochę zabrać ryzyko, że to wyjdzie i jak będzie po prostu pytanie, co chcemy robić, to to tak. Jakby zakładam, że tak. Nie będę męczył. No to...
+
+[[00:15:51]]
+Następne jest, o czym chciałem rozmawiać, to jak dzielimy zadanie i jakie robimy sobie terminy zrobienia ich, żeby to nie padło, bo was nie było na początku, jak jeszcze z poprzednią taką grupą, która się zadeklarowała, że będzie robić, robiliśmy. I rozdzieliliśmy trochę te zadania, tylko że tak wyszło, że jak te zadania były rozdzielone, to jeden zrobił, drugi nie zrobił, trzeci zrobił tak w połowie, czwarty zrobił, piąty nie.
+
+[[00:16:19]]
+nie mogliśmy iść dalej, jeżeli nie mieliśmy wszystkich tych rzeczy, więc będzie trzeba sobie zrobić taką listę zadań i jak już będziemy mieli potwierdzenie od profesora Kujawskiego i pana Twardawy, że to jest możliwe i to nie są jakieś mrzonki, że będziemy mogli dopisywać i dobierać i to będzie raczej na GitHubie, więc będziecie musieli być rozeznani z tym, co mamy.
+
+[[00:16:49]]
+Pewnie to będzie na tym jednym repo, tym section notes, gdzie będą artykuły, gdzie są notatki, plus gdzie będą zadania, żeby to nie było jakoś porozrzucane. I zakładam, że tam będą po prostu takie zadania od myślników, że w takiej najprostszej formie, w takim pliku tekstowym, że będzie każdy mógł sobie wrzucić zadanie, skreślić je i nie wiem.
+
+[[00:17:18]]
+zrobić odwołanie do jakiejś innej notatki, jak w takim archiwum. I wtedy to jakoś tak pomoże robić rzeczy, bo dużym tematem podczas pracy nad tą akwapurą było tak, że ludzie jak nie mieli zadań, które jakby były wyznaczone, to ciężko było im się ogarnąć, co jest po co. I też liczę na taką waszą inicjatywę, że nie będziecie osobami, które...
+
+[[00:17:49]]
+że jak nie wiem, nie ogarniają, czy są gdzieś zagubione, to nic nie powiedzą, czy coś takiego, bo to wtedy bardzo ciężko koordynować te rzeczy. I jak będzie może taka jedna duża lista zadań, a nie podział na te, nie wiem, cztery kanały Discord, pięć repozytoriów na GitHubie, to wtedy będzie fajnie widać, co kto robi, jakie są dodania do zgarnięcia i będzie można sobie to...
+
+[[00:18:18]]
+robić tak konsekwentnie krok po kroku, jak do jakiegoś sprawozdania na uczelnię. Może wymać jakąś propozycję, jak te zadania mogłyby być zrobione i jak Wam się najlepiej pracuje, no bo nie jesteśmy w jakiejś ogromnej grupie, gdzie musi być osoba, która wymyśla zadania, a ludzie robią, tylko raczej jesteśmy w takiej małej grupie, że każdy będzie sobie wymyślał po kolei zadania, jakie ma trzeba zrobić.
+
+[[00:18:49]]
+No tylko będzie na przykład nad tą listą zadań cel, że cel jest mieć to i żeby mieć to x to trzeba zrobić 5 podzadań, żeby to wyszło. Czy takie coś wam pasuje, czy jakoś inaczej wam się łatwiej pracuje? Terminowo jak to wygląda? Co to znaczy? Jeśli chodzi o tyczeń teraz, jeśli chodzi o te zadań porobienie.
+
+[[00:19:20]]
+To kto robi? Do kiedy? Co zrobić? To nie. Teraz jeszcze nie ma takiej rzeczy, bo cały czas musimy sobie potwierdzić, że to będzie z tym labem. Ja dopiero muszę zrobić to takie miejsce do zrobienia jakichś zadań. Ale nie chciałbym robić jakichś takich deadline'ów. Chciałbym po prostu, żebyśmy mieli spotkania co tydzień i żeby ktoś zawsze coś miał do powiedzenia, co nie, że jakieś tam rzeczy robiłem, ale...
+
+[[00:19:50]]
+jakby nie miałem czasu albo nie wiem, zagłębiłem się w to i wtedy pokazuje jakie zadania zrobił żeby inni z grupy mogli zobaczyć co nie, że tak jak mówiłem problem jaki był wcześniej to brak koordynacji i nikt nie wie co, jaka grupa robi a teraz jak to będzie jedna lista taka ogólna i jak ogarniesz jakieś zadanie to wiesz, możesz sobie odhaczyć z tej listy tam na tym githubie później jak będzie spotkanie to mówisz co tam było
+
+[[00:20:17]]
+albo jakie były problemy, jakie następne zadania powstały z tego. I tak będziemy się update'ować. I że wiesz, jak są te nagrania tych spotkań, to nawet jak kogoś nie będzie, to będzie transkrypt, plus jest nagranie na YouTubie, to będzie można sobie wrzucić do LLM-a i jak czegoś nie ogarniasz, to pytasz LLM-a, co takiego się dzieje, po co to jest potrzebne i może to ułatwi, co nie.
+
+[[00:20:46]]
+A mogę zapytać, jak wy pracujecie, jak robicie sprawozdanie, jak wam się pracuje, czy łatwo ogarniacie tematy, czy musicie mieć wszystko wypisane krok po kroku, bo może to będzie jakoś ułatwiać robienie tych zadań.
+
+[[00:21:05]]
+Jakby nie sprawozdanie, tylko konkretnie, jak lubicie pracować, bo ja mam taki styl, że wchodzę w jakiś temat i się zagłębiam, odpalam sobie dziesięć czatów i mam dziesięć jakichś pomysłów, szukam jakichś rzeczy i to tak się rozwarstwia jak drzewo. Ja coś badam, to badam za to głębnie, to zrozumiem całe całościowo wszystko i wtedy raczej już pamiętam.
+
+[[00:21:33]]
+Tak, to wtedy na przykład jakbyś miał to zadanie, żeby poszukać z Florianem tego procesu biologicznego, to sobie odpalasz jakiś artykuł, robisz tam jakąś szybką listę wolnych myśli i wtedy już masz zadania z tego zrobione. Co jeszcze trzeba ogarnąć, jakie pytania są, to wtedy ta lista, jakbyśmy mieli taką ogólną.
+
+[[00:21:55]]
+to mógłbyś tam wszystko, za przeproszeniem, wrzucić i wpieprzyć i powiedzieć, dobra, te rzeczy trzeba ogarniać. Jak ich nie ogarniemy, no to będzie ciężko później. Z rzeczy w sumie, co mam na teraz, to wspominałem Ci o tym antybiotyku na E. coli, co algorytmy uczenia maszynowego tam miały jakby znaczenie w odkryciu tego. To jest halicyna.
+
+[[00:22:21]]
+to nie wiem, czy byśmy mogli jakoś skorzystać z tego? To byś musiał wrzucić... No, znaczy zakładam tak, bo teraz jak mówisz o tym, co nie, to jestem kompletnie, jak to się mówi, nieświadomy. Nie wiem, o co chodzi, rozumiem, że jest jakiś tam związek i jak masz takie coś, to jak będzie na przykład taka lista, to możesz wrzucić, jakie tam rzeczy były z tego i co powinniśmy wiedzieć. I jak masz...
+
+[[00:22:50]]
+na przykład na naszym githubie, jak sobie wejdziesz na ta sekcja koła naukowego, to tam masz repo section notes i tam możesz wrzucić ten artykuł i tam sobie zobaczysz, że na przykład jak masz notatki do artykułów, to na przykład są dwa, dwie obecnie, że jak sobie wejdziesz na przykład na post x zmiany,
+
+[[00:23:09]]
+no to tam wygląda taka sieczka, co nie, że ja często na przykład kupiłem jakieś cytaty z tego artykułu, wklejam tam, piszę swoje jakieś bzdury i to ma, nie wiem, tak załóżmy, są cztery strony A4, gdzie są jakieś takie moje notatki, gdzie godzinę czytałem ten artykuł i wtedy jak będzie takie coś, co nie, to ja przed spotkaniem czy coś będę mógł sobie przeczytać i wtedy będziemy mogli rozmawiać na takim poziomie, że ja w ogóle ogarniam, o co chodzi, co nie.
+
+[[00:23:41]]
+Tak jak może tobie pokażę jak teraz mój ekran wygląda, że tam z prawej strony powinno się wgrać. Widać, że jak masz te notatki
+
+[[00:24:01]]
+to masz notatki do artykułów i tam masz post-it zmiany. I jak sobie zobaczysz tam na prawo, to jest kompletnie, no nie wiem, jakieś opinie, cytaty, rzeczy, które są potrzebne, zainteresować się tym, wykrzykniki. To chodzi o to, jak sobie czytasz jakiś materiał, to tak jak, nie wiem, robisz zakreślenia normalnie na papierze jakimś kolorem, co nie? To takie rzeczy są warte, a nie, że ty będziesz robić taką idealną notatkę kropka po kropce.
+
+[[00:24:31]]
+Bo to będzie chyba ciężkie zadanie na każdy artykuł tak robić. Ja raczej jak wypiszesz takie najciekawsze informacje, co nie? Jak bierzesz ten artykuł i widzisz, że oni napisali, no spieprzyliśmy takie badanie, bo powinniśmy coś innego zmienić. Albo nasza metodologia, bo metodologia jest praktycznie najważniejsza w naszych badaniach. Patrzysz sobie na metodologię.
+
+[[00:24:56]]
+mówisz, dobra, to jest fajne, to jest fajne, to jest fajne i robisz tak, że, nie wiem, piszesz przykładowy, przykładowa nasza metodologia i sobie wymyślasz na bazie tego artykułu metodologii i później wrzucasz i mówisz, dobra, panowie, znalazłem takie coś i ta metodologia wydaje się ogarnięta, mogę to poprzeć jakimś, jakimś artykułem, który nie jest sklejony po prostu z LLM-a, no i wtedy już mamy taką informację, której nie zaprzeczymy.
+
+[[00:25:27]]
+I tak trzeba budować na tym, że każdy sobie robi takie, każdy sobie robi dosłownie takie swoje notatki czy informacje, których nie można zaprzeczyć, bo one są dosłownie cytatem z jakiegoś artykułu, który już jest peer-reviewed, co nie? I tak będziemy budować to.
+
+[[00:25:48]]
+Tak będą się robić zadania, że masz tam fikcyjną metodologię, którą znalazłeś z tego artykułu o tym systemie, co znalazł ten związek i piszesz zadania, dowiedzieć się jakie narzędzia użyli do tego workflow albo jaki rodzaj związków oni w ogóle przeszukiwali i takie rzeczy. I to możesz sobie wrzucić jako notatkę, że tam do góry masz, tak pokażę.
+
+[[00:26:18]]
+do góry masz dosłownie miejsce gdzie na githubie możesz wrzucić pdf'a i te pdf'y będziemy tam sobie wrzucać tam do góry są artykuły później pod spodem są inne a notatki i notatki do artykułów więc to tak powoli będzie się to układać i jeszcze tam będzie jeden folder zadania i dosłownie będzie następny taki
+
+[[00:26:48]]
+plik markdown w którym będziemy sobie robić zadania i powinno to tak lecieć do przodu bo jak na przykład sobie nie wiem przejedziesz i tak zobaczysz no nawet nie jakoś dokładnie jak ja robiłem tam w tej grupie symulacji to jak sobie wejdziesz tam pod tym gifem z ishowspeedem tam na dole że zaczynam czytać ten artykuł to ja dosłownie jak to się mówi
+
+[[00:27:15]]
+Na bieżąco. Na bieżąco kopiowałem fragmenty, wklejałem na Discorda i opisywałem, że o, to wygląda ciekawie, to dodam albo coś takiego. Wydaje mi się, że taka robota jest chyba dosyć ciekawa i też możesz pokazać swoją kreatywność. I że to będzie tak pchało do przodu, aniżeli ja bym tobie powiedział, zrób to i ty jesteś zagubiony. To raczej musi być tak, że...
+
+[[00:27:48]]
+że jakoś tak idziemy do przodu i każdy popycha ten cel do góry i tak szybko w skrócie mówi, dobra, przeczytałem to, okazało się, że ten pomysł, który miałem tydzień temu, okazał się do wywalania, bo artykuł, który czytałem pięć lat temu, rok temu został unieważniony, bo znaleźli jakieś nowe narzędzia albo jakieś inne rzeczy. I tak chyba powinno to pójść do przodu. A ty, Florianek? Repozytorium na GitHubie to jest...
+
+[[00:28:22]]
+Masz to komputerowe projektowanie leków. Tam są trzy repozytoria. Ja to pokażę za chwilę, dobra? Jak skończymy gadać, to na szybko pokażę. A ty, Florian, ogarniasz... Nie, no powiedz. Czy dobrze by ci się pracowało w takim stylu, z taką wolnością i robieniem takich rzeczy po prostu? Ja bardzo lubię...
+
+[[00:28:49]]
+jakby sobie grzebać po prostu w rzeczach więc jeżeli już tutaj Max wspomniał o halicynie czy jakkolwiek to się zmienia to myślę, że ja sobie po prostu pogrzebię i zobaczę co można
+
+[[00:29:14]]
+tego wyciągnąć jakoś bardziej też jak max mógłbyś mi wysłać albo też wrzucić tam do githuba artykuły mniej więcej to raczej już po prostu wyrzucajcie te rzeczy żebyśmy mogli sobie oglądać może spróbuję udostępnić ekran tylko nie wiem czy mój internet to wytrzyma też generalnie byłaby szansa żebyś wrzucił link do githuba bo
+
+[[00:29:40]]
+A to już to zrobię, chwila. Chcę pokazać... Nie wiem, czy nie mogę odpalić streama, czy jakiś jest problem. Zobaczycie, czy mam streama, czy nie. A nie, fail to start. Kurde, dobra. To po prostu chciałem pokazać, że jak będziemy mieli takie coś i wejdziemy sobie na to projektowanie leków na repo.
+
+[[00:30:07]]
+bo na tym githubie jest organizacja, żeby było łatwiej, czyli mamy takie coś. Później wchodzicie na section notes, będziecie mieli dostęp do tego, wtedy macie to i nawet jak ktoś da jakieś zmiany, to wtedy będzie od razu widać, tak jak na Notion, że wejdziecie sobie na commits, patrzycie, że ktoś coś dodał i nie wiem, to coś pisał na Discordzie czy coś, wchodzicie sobie na postxanaliza.
+
+[[00:30:38]]
+I wtedy widać jaką notatkę dodałem, co nie, że się zawiesiłem. To wtedy będziemy mogli sobie widzieć te wszystkie rzeczy i dodawać. Dobrze. Coś mówiliście? Coś przerwałem, bo tak trochę się zawiesiłem? Słuchasz mnie, czy nie? Tak, tak. Dobra. No to jakby tam dodam tego linka, że link...
+
+[[00:31:47]]
+i jak to działa, żeby sobie zapisać na później dobra, to będziemy mieli te zadania no i opisałem, że to co jest ważne w artykułach i jak robić ten list, żeby to miało sens i zapisywanie na githubie no i następne to, że notatki z transkrypcjami, linkami do spotkań będą również tutaj na tym wysyłane że jak kogoś z was nie będzie, albo nie wiem, innych to będziecie mogli sobie odsłuchać
+
+[[00:32:23]]
+No i pytanie, czy ktoś z Was łączył się teraz szóste z klastrem i czy robiliście coś, czy w ogóle... A nie, bo jeszcze Florian nie ma dostępu, kurde, Tymofi ma i Szymon, ale to Ty, Max albo Szymon robiliście coś z klastrem? Ja nie robiłem. Dobra, no to... Nie wiem, że tam to hasło od miłostana jest potrzebne do tego, czy coś. Tak, tak, ale Ty chyba miałeś... Tak, ja to mam zapisane.
+
+[[00:32:50]]
+Tak, tak. To jest mało ważne, że po prostu będziesz mógł się połączyć i robić te rzeczy, bo ja już konfiguruję, że dosłownie jak będziesz wchodził do mnie na konto, to będziesz mógł robić obliczenia tak samo. Tak samo Szymon, a Florian jak nie dostał tego dostępu do tego z wniosku, no to będzie mógł się logować po prostu z mojego loginu i hasła, co nie? Jak będzie chciał robić obliczenia czy Maxa, czy Szymona i to nie będzie chyba problemu. Nie.
+
+[[00:33:19]]
+no to już też będziemy musieli jakoś pracować nad tym klastrem i już trzy narzędzia jakie są potrzebne do tego stworzyłem skrypty do nich i można je odpalać można ich używać no to
+
+[[00:33:47]]
+Z tym klastrem to powiedziałem, że Florian będzie mógł używać, jak będzie chciał robić jakieś skrypty, czy odpalać jakieś swoje eksperymenty. Bo jak już będą te skrypty, to na przykład załóżmy, że będziesz chciał zobaczyć, czy jakieś białko z jakimś związkiem się łączy i możesz to odpalić na klastrze, co nie? Że to nie będzie wymagało programowania, tylko po prostu użycia narzędzia. Tak samo Max czy Szymon. Dobra, to chyba tyle. Trochę zajęło więcej niż 30 minut, ale...
+
+[[00:34:22]]
+Chyba wszystko omówione. Chcecie coś jeszcze dodać zanim się spotkamy z tym profesorem? Kiedy masz spotkanie? Nie, że kiedy ja mam, tylko kiedy my będziemy mieli, bo ja bym chciał z wami tam być. Wszyscy? Ach, dobra. Tak, tak, że tu będziemy wszyscy gadać. No bo jak on, ten profesor, zaczyna mówić o jakiejś tam rzeczach związanych z chemią czy biologiem, to ja się zamykam trochę. A o czym mówił? Jest dodatka na tym spotkaniu.
+
+[[00:35:01]]
+No, jest notatka, że możesz sobie przeczytać, co nie? Że, no mogę tutaj wysłać to, co zdążyłem sobie zanotować, no ale to wszystko jest na githubie, no bo jak teraz wklejam ten tekst, to on się wysyła jako jakiś taki plik, co nie? On mówi o jakichś typach azotu, nie wiem. Mało wiedzy. I on zna nieazotu w bakteriach właśnie.
+
+[[00:35:33]]
+Mówił o jakiejś, nie wiem, wspominał ten profesor Kujawski o jakichś wiązaniach, jakiejś tautomerii, że enolketon, jakieś zmiany rozmieszczenia ładunków. No, to się zmienia. Tam masz wiązanie podwójne i to jest niestabilne i to się zmienia. Wiązanie azotu, pewnie gadał o tym, jak bakterie wiążą azot z atmosfery. No to...
+
+[[00:35:58]]
+To już takie rzeczy, wiesz, trochę techniczne. To są też takie notatki, które ja tak na krótko robiłem, a później wrzuciłem do czata, żeby wytłumaczył, więc może niektóre się nie zgadzają, co nie, ale no widzisz, na jakie tematy to było. Dobra, to nie będę tego przedłużał, że te rzeczy są.
+
+[[00:36:29]]
+no i zakończę nagrywanie i po prostu dam tego linka do githuba żeby tutaj był, dobra? dobra, to kończę
+
