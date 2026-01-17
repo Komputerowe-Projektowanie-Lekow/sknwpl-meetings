@@ -9,6 +9,12 @@ System do automatycznego przetwarzania nagrań spotkań koła naukowego.
 - **Prompty AI** - gotowe prompty do ChatGPT/Gemini
 - **Upload YouTube** - automatyczne wgrywanie na kanał
 
+
+
+python meeting.py upload ".\last-week-in-sknwpl\week_24_30\2025-11-28 18-05-45.mp4" --title "Spotkanie SKNWPL 2025-11-28"
+
+python meeting.py process "resources/audio/2025-11-28 18-05-45.mkv" --date 2025-11-28
+
 ## 🚀 Szybki start
 
 ### 1. Instalacja
